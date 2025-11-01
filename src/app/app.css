@@ -38,6 +38,27 @@
   border-bottom: 2px solid #e0e0e0;
 }
 
+.prerequisite-group {
+  margin-bottom: 24px;
+}
+
+.prerequisite-header {
+  color: #d32f2f;
+  font-size: 1.2em;
+  margin-bottom: 12px;
+  margin-top: 0;
+  padding-left: 16px;
+  border-left: 3px solid #d32f2f;
+  background-color: #fafafa;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.prerequisite-header.no-prereq {
+  color: #4caf50;
+  border-left-color: #4caf50;
+}
+
 .responsive-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

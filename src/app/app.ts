@@ -48,23 +48,39 @@ export class App implements OnInit {
     );
   });
   
-  // Computed signal to group filtered boons by level
+  // Computed signal to group filtered boons by level and then by prerequisite
   groupedBoons = computed(() => {
     const boons = this.filteredBoons();
-    const grouped: { [level: number]: Boon[] } = {};
+    const grouped: { [level: number]: { [prerequisite: string]: Boon[] } } = {};
     
     boons.forEach(boon => {
       if (!grouped[boon.lvl]) {
-        grouped[boon.lvl] = [];
+        grouped[boon.lvl] = {};
       }
-      grouped[boon.lvl].push(boon);
+      
+      const prerequisite = boon.pre || 'No prerequisite';
+      if (!grouped[boon.lvl][prerequisite]) {
+        grouped[boon.lvl][prerequisite] = [];
+      }
+      
+      grouped[boon.lvl][prerequisite].push(boon);
     });
     
-    // Convert to array and sort by level
+    // Convert to array and sort by level, then by prerequisite
     return Object.keys(grouped)
       .map(level => ({
         level: parseInt(level),
-        boons: grouped[parseInt(level)]
+        prerequisiteGroups: Object.keys(grouped[parseInt(level)])
+          .map(prerequisite => ({
+            prerequisite,
+            boons: grouped[parseInt(level)][prerequisite]
+          }))
+          .sort((a, b) => {
+            // Sort "No prerequisite" first, then alphabetically
+            if (a.prerequisite === 'No prerequisite') return -1;
+            if (b.prerequisite === 'No prerequisite') return 1;
+            return a.prerequisite.localeCompare(b.prerequisite);
+          })
       }))
       .sort((a, b) => a.level - b.level);
   });
