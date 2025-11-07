@@ -1,16 +1,49 @@
-# AngularBoons
+# AngularBoons 🦈
+
+A powerful Angular application for browsing and managing D&D boons with dark mode support and advanced filtering.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.8.
+
+## Prerequisites
+
+- **Node.js 22.x** (required)
+- **nvm** (recommended for version management)
+
+## Quick Setup
+
+### Option 1: Automatic Setup
+```bash
+./setup.sh
+```
+
+### Option 2: Manual Setup
+```bash
+# Use the correct Node.js version
+nvm use
+
+# Install dependencies
+npm install
+```
 
 ## Development server
 
 To start a local development server, run:
 
 ```bash
-ng serve
+npm start
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Node.js Version Management
+
+This project uses Node.js 22. The `.nvmrc` file ensures consistent Node.js versions across all environments.
+
+- **Automatic switching**: Run `nvm use` in the project directory
+- **Manual switching**: Run `nvm use 22`
+- **Check version**: Run `node --version` (should show v22.x.x)
+
+For automatic version switching when entering the directory, see [NODE_VERSION.md](./NODE_VERSION.md) for shell configuration options.
 
 ## Code scaffolding
 

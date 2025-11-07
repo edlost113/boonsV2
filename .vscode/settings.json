@@ -1,0 +1,12 @@
+{
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "/bin/zsh",
+      "args": ["-c", "nvm use 2>/dev/null || echo 'Run: nvm use 22'; exec zsh"]
+    }
+  },
+  "extensions.recommendations": [
+    "ms-vscode.vscode-typescript-next",
+    "angular.ng-template"
+  ]
+}
