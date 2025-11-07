@@ -8,21 +8,6 @@
       "lvl": 1
     },
     {
-      "id": 132,
-      "name": "BOON OF DIMENSIONAL TRAVEL",
-      "desc": "As an action, you can cast the misty step spell, without using a spell slot or any components. You can use this boon threes times afterwards you can't use this boon again until you finish a short rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 131,
-      "name": "BOON OF THE ECHOING STEP",
-      "desc": "Once per short rest, you can briefly phase through obstacles when you Dash. For that movement, you ignore difficult terrain and can pass through creatures as if they were difficult terrain, dealing force damage equal to your proficiency bonus to each creature you pass through.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },{
       "id": 2,
       "name": "BOON OF THE ANCHORED WILL",
       "desc": "When you would be forced to move or teleported against your will, you can choose to remain in place instead. Usable three times per short rest.",
@@ -1053,5 +1038,69 @@
       "title": "The Enemy",
       "pre": "Evil alignment",
       "lvl": 5
+    },
+    {
+      "id": 131,
+      "name": "BOON OF DIMENSIONAL TRAVEL",
+      "desc": "As an action, you can cast the misty step spell, without using a spell slot or any components. You can use this boon threes times afterwards you can't use this boon again until you finish a short rest.",
+      "title": "",
+      "pre": "No prerequisite",
+      "lvl": 1
+    },
+    {
+      "id": 132,
+      "name": "BOON OF THE ECHOING STEP",
+      "desc": "Once per short rest, you can briefly phase through obstacles when you Dash. For that movement, you ignore difficult terrain and can pass through creatures as if they were difficult terrain, dealing force damage equal to your proficiency bonus to each creature you pass through.",
+      "title": "",
+      "pre": "No prerequisite",
+      "lvl": 1
+    },
+    {
+      "id": 133,
+      "name": "BOON OF IRON GRASP",
+      "desc": "Your grip is unbreakable. You add your Strength and additional time when determining the outcome of your grapples, and creatures you grapple are also restrained until they escape.",
+      "title": "",
+      "pre": "No prerequisite",
+      "lvl": 1
+    },
+    {
+      "id": 134,
+      "name": "Boon of the Soul Shephard",
+      "desc": "When you cast a spell that restores a creature to life (revivify, raise dead, etc.), you do not need material components worth less than 1,000 gp. Once per long rest, when you touch a creature that has died within the last minute, it returns to life at 1 hit point without expending a spell slot.",
+      "title": "",
+      "pre": "You must have died at some point and been brought back",
+      "lvl": 1
+    },
+    {
+      "id": 135,
+      "name": "Boon of the Stalwart Mind",
+      "desc": "You have immunity to psychic damage. You can alsocast wrathful smite (save DC 15) at will, without using aspell slot or any components.",
+      "title": "",
+      "pre": "",
+      "lvl": 1
+    },
+    {
+      "id": 136,
+      "name": "Boon of Swift Strike",
+      "desc": "When you take the Attack action, you may make oneadditional weapon attack as part of that action.",
+      "title": "",
+      "pre": "",
+      "lvl": 1
+    },
+    {
+      "id": 137,
+      "name": "Boon of The Watcher",
+      "desc": "You gain proficiency in Perception and Insight, orexpertise if you already had proficiency. In addition, youcan’t be surprised while conscious.",
+      "title": "",
+      "pre": "",
+      "lvl": 1
+    },
+    {
+      "id": 138,
+      "name": "Boon of the Dreamveil",
+      "desc": "As a bonus action, you can blur your form in phantasmal echoes. Until the start of your next turn, attack rolls against you have disadvantage.",
+      "title": "",
+      "pre": "",
+      "lvl": 1
     }
   ]
