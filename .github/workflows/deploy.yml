@@ -37,7 +37,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: './dist/angular-boons'
+        path: './dist/angular-boons/browser'
 
     - name: Deploy to GitHub Pages
       id: deployment
