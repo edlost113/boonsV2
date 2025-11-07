@@ -1109,7 +1109,7 @@
       "desc": "Creatures within your Aura of Protection gain a bonusto their AC equal to your Charisma Modifier.Additionally, when you use Lay on Hands, the healedcreature gains resistance to all damage until the start ofyour next turn.",
       "title": "Sacred Bulwark",
       "pre": "Paladin lvl 3",
-      "lvl": 1
+      "lvl": 2
     },
     {
       "id": 140,
@@ -1117,6 +1117,62 @@
       "desc": "The die cost for your Cunning Strike options isreduced by an amount equal to half your proficiencybonus, rounded up, to a minimum of 1 die. If a Cunning Strike effect requires a saving throw, thetarget creature cannot benefit from having advantage onthe saving throw.",
       "title": "Striker",
       "pre": "Rogue lvl 3",
-      "lvl": 1
+      "lvl": 2
+    },
+    {
+      "id": 141,
+      "name": "BOON OF THE BRUTAL KILLER",
+      "desc": "Whenever using your Brutal Strike feature you gainthe following features: <li>Your crit range expands by one.</li><li>When you crit against a creature you may forgorolling damage die and use max damage instead.</li><li>When you crit against a creature you may apply anynumber of Brutal Stirke effects.</li>",
+      "title": "Brutalist",
+      "pre": "Barbarian lvl 3",
+      "lvl": 2
+    },
+    {
+      "id": 142,
+      "name": "Boon of the Juggernaut",
+      "desc": "While raging, you gain immunity to bludgeoning,piercing, and slashing damage from nonmagicalsources. In addition, when you enter a rage, you gaintemporary hit points equal to twice your level.",
+      "title": "Juggernaut",
+      "pre": "Barbarian lvl 3",
+      "lvl": 2
+    },
+    {
+      "id": 143,
+      "name": "Boon of the Bloodfury",
+      "desc": "Each time you take damage while raging, you gain astacking +1 bonus to attack rolls and damage rolls untilthe end of your rage (max +5). If you end your turnwithout attacking on your turn, you take damage equalto 5 times this bonus.",
+      "title": "Bloodfury",
+      "pre": "Barbarian lvl 3",
+      "lvl": 2
+    },
+    {
+      "id": 144,
+      "name": "BBOON OF THE UNBREAKABLE",
+      "desc": "Your song inspires the mind, fortifying it to nearimpenetrable status. Creatures that have one of yourBardic Inspiration die can not be charmed, frighted,stunned, or paralyzed.",
+      "title": "Unbreakable",
+      "pre": "Bard lvl 3",
+      "lvl": 2
+    },
+    {
+      "id": 145,
+      "name": "Boon of the Eternal Echo",
+      "desc": "Once per short rest, when you cast a spell with verbalcomponents, it resonates beyond you. One ally within30 feet canuse their reaction to immediately cast thesame spell at its lowest level without expending a spellslot or using components.",
+      "title": "Echoheart",
+      "pre": "Bard lvl 3",
+      "lvl": 2
+    },
+    {
+      "id": 146,
+      "name": "Boon of the Jester’s Mockery",
+      "desc": "When you use Vicious Mockery, you may target twoadditional creatures instead of one. Once per long rest,you may force all hostile creatures within 30 feet tomake a Wisdom saving throw or fall prone inuncontrollable laughter as though affected by HideousLaughter until the end of your next turn.",
+      "title": "Jester",
+      "pre": "Bard lvl 3",
+      "lvl": 2
+    },
+    {
+      "id": 147,
+      "name": "Boon of the Lover’s Charm",
+      "desc": "Your gaze carries irresistible allure. You can castcharm person at will without expending a spell slot.Once per short rest, you may cast charm monster.",
+      "title": "Enchanter",
+      "pre": "Bard lvl 3",
+      "lvl": 2
     }
   ]

@@ -153,6 +153,16 @@
   filter: drop-shadow(0 2px 4px rgba(255, 152, 0, 0.2));
 }
 
+.boon-count {
+  background-color: var(--border-warning);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
 .boon-level {
   margin-top: 8px;
   font-size: 0.9em;

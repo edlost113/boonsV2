@@ -31,7 +31,7 @@ export class App implements OnInit {
   protected readonly title = signal('angular-boons');
   boons = signal<Boon[]>([]);
   searchTerm = signal<string>('');
-  pinnedBoons = signal<Set<number>>(this.loadPinnedFromStorage());
+  pinnedBoons = signal<number[]>(this.loadPinnedFromStorage());
   
   // Computed signal to filter boons based on search term
   filteredBoons = computed(() => {
@@ -49,21 +49,37 @@ export class App implements OnInit {
     );
   });
 
-  // Computed signal for pinned boons
+  // Computed signal for pinned boons with counts
   pinnedBoonsData = computed(() => {
     const pinnedIds = this.pinnedBoons();
-    return this.boons().filter(boon => pinnedIds.has(boon.id));
+    const boonCounts = new Map<number, number>();
+    
+    // Count occurrences of each pinned boon ID
+    pinnedIds.forEach(id => {
+      boonCounts.set(id, (boonCounts.get(id) || 0) + 1);
+    });
+    
+    // Create array with boon data and count information
+    const result: (Boon & { count: number })[] = [];
+    boonCounts.forEach((count, id) => {
+      const boon = this.boons().find(b => b.id === id);
+      if (boon) {
+        result.push({ ...boon, count });
+      }
+    });
+    
+    return result;
   });
 
   // Computed signal for total cost of pinned boons
   pinnedTotalCost = computed(() => {
-    return this.pinnedBoonsData().reduce((total, boon) => total + boon.lvl, 0);
+    return this.pinnedBoonsData().reduce((total, boon) => total + (boon.lvl * boon.count), 0);
   });
   
   // Computed signal to group filtered boons by level and then by prerequisite
   groupedBoons = computed(() => {
     const boons = this.filteredBoons();
-    const pinnedIds = this.pinnedBoons();
+    const pinnedIds = new Set(this.pinnedBoons());
     // Filter out pinned boons from the main grid
     const unpinnedBoons = boons.filter(boon => !pinnedIds.has(boon.id));
     const grouped: { [level: number]: { [prerequisite: string]: Boon[] } } = {};
@@ -112,42 +128,46 @@ export class App implements OnInit {
   }
 
   togglePin(boonId: number) {
-    const currentPinned = new Set(this.pinnedBoons());
-    if (currentPinned.has(boonId)) {
-      currentPinned.delete(boonId);
-    } else {
-      currentPinned.add(boonId);
-    }
+    const currentPinned = [...this.pinnedBoons()];
+    currentPinned.push(boonId);
     this.pinnedBoons.set(currentPinned);
     this.savePinnedToStorage(currentPinned);
   }
 
+  unpinBoon(boonId: number) {
+    const currentPinned = [...this.pinnedBoons()];
+    const index = currentPinned.indexOf(boonId);
+    if (index > -1) {
+      currentPinned.splice(index, 1);
+      this.pinnedBoons.set(currentPinned);
+      this.savePinnedToStorage(currentPinned);
+    }
+  }
+
   isPinned(boonId: number): boolean {
-    return this.pinnedBoons().has(boonId);
+    return this.pinnedBoons().includes(boonId);
   }
 
   clearAllPins() {
-    const emptySet = new Set<number>();
-    this.pinnedBoons.set(emptySet);
-    this.savePinnedToStorage(emptySet);
+    const emptyArray: number[] = [];
+    this.pinnedBoons.set(emptyArray);
+    this.savePinnedToStorage(emptyArray);
   }
 
-  private loadPinnedFromStorage(): Set<number> {
+  private loadPinnedFromStorage(): number[] {
     try {
       const stored = localStorage.getItem('angular-boons-pinned');
       if (stored) {
-        const pinnedArray = JSON.parse(stored) as number[];
-        return new Set(pinnedArray);
+        return JSON.parse(stored) as number[];
       }
     } catch (error) {
       console.error('Error loading pinned boons from localStorage:', error);
     }
-    return new Set<number>();
+    return [];
   }
 
-  private savePinnedToStorage(pinnedSet: Set<number>) {
+  private savePinnedToStorage(pinnedArray: number[]) {
     try {
-      const pinnedArray = Array.from(pinnedSet);
       localStorage.setItem('angular-boons-pinned', JSON.stringify(pinnedArray));
     } catch (error) {
       console.error('Error saving pinned boons to localStorage:', error);
