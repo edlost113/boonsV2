@@ -31,7 +31,7 @@ export class App implements OnInit {
   protected readonly title = signal('angular-boons');
   boons = signal<Boon[]>([]);
   searchTerm = signal<string>('');
-  pinnedBoons = signal<Set<number>>(new Set());
+  pinnedBoons = signal<Set<number>>(this.loadPinnedFromStorage());
   
   // Computed signal to filter boons based on search term
   filteredBoons = computed(() => {
@@ -119,6 +119,7 @@ export class App implements OnInit {
       currentPinned.add(boonId);
     }
     this.pinnedBoons.set(currentPinned);
+    this.savePinnedToStorage(currentPinned);
   }
 
   isPinned(boonId: number): boolean {
@@ -126,7 +127,31 @@ export class App implements OnInit {
   }
 
   clearAllPins() {
-    this.pinnedBoons.set(new Set());
+    const emptySet = new Set<number>();
+    this.pinnedBoons.set(emptySet);
+    this.savePinnedToStorage(emptySet);
+  }
+
+  private loadPinnedFromStorage(): Set<number> {
+    try {
+      const stored = localStorage.getItem('angular-boons-pinned');
+      if (stored) {
+        const pinnedArray = JSON.parse(stored) as number[];
+        return new Set(pinnedArray);
+      }
+    } catch (error) {
+      console.error('Error loading pinned boons from localStorage:', error);
+    }
+    return new Set<number>();
+  }
+
+  private savePinnedToStorage(pinnedSet: Set<number>) {
+    try {
+      const pinnedArray = Array.from(pinnedSet);
+      localStorage.setItem('angular-boons-pinned', JSON.stringify(pinnedArray));
+    } catch (error) {
+      console.error('Error saving pinned boons to localStorage:', error);
+    }
   }
 
   private loadBoons() {
