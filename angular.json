@@ -31,7 +31,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/angular-boons/",
+              "baseHref": "/boonsV2/",
               "budgets": [
                 {
                   "type": "initial",
