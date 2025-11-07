@@ -1102,5 +1102,13 @@
       "title": "",
       "pre": "",
       "lvl": 1
+    },
+    {
+      "id": 139,
+      "name": "Boon of the Sacred Bulwark",
+      "desc": "Creatures within your Aura of Protection gain a bonusto their AC equal to your Charisma Modifier.Additionally, when you use Lay on Hands, the healedcreature gains resistance to all damage until the start ofyour next turn.",
+      "title": "Sacred Bulwark",
+      "pre": "Paladin lvl 3",
+      "lvl": 1
     }
   ]
