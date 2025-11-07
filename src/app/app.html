@@ -31,7 +31,7 @@
       <mat-card *ngFor="let boon of pinnedBoonsData()" class="pinned-card">
         <mat-card-header>
           <mat-card-title>{{ boon.name }} <span class="boon-count">({{ boon.count }})</span></mat-card-title>
-          <mat-card-subtitle *ngIf="boon.pre && boon.pre !== 'No prerequisite'">{{ boon.pre }}</mat-card-subtitle>
+          <!--<mat-card-subtitle *ngIf="boon.pre && boon.pre !== 'No prerequisite'">{{ boon.pre }}</mat-card-subtitle>-->
         </mat-card-header>
         <mat-card-content>
           <p [innerHTML]="boon.desc"></p>
@@ -70,7 +70,7 @@
         <mat-card *ngFor="let boon of prereqGroup.boons">
           <mat-card-header>
             <mat-card-title>{{ boon.name }}</mat-card-title>
-            <mat-card-subtitle *ngIf="boon.pre && boon.pre !== 'No prerequisite'">{{ boon.pre }}</mat-card-subtitle>
+            <!--<mat-card-subtitle *ngIf="boon.pre && boon.pre !== 'No prerequisite'">{{ boon.pre }}</mat-card-subtitle>-->
           </mat-card-header>
           <mat-card-content>
             <p [innerHTML]="boon.desc"></p>

@@ -281,3 +281,89 @@
     border-left-color: #81c784 !important;
   }
 }
+
+/* Print-specific styles to prevent page breaks inside cards */
+@media print {
+  /* Prevent cards from breaking across pages */
+  mat-card {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 16px;
+  }
+  
+  /* Prevent prerequisite groups from breaking */
+  .prerequisite-group {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Prevent level groups from breaking */
+  .level-group {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Prevent level headers from being orphaned on their own page */
+  .level-header {
+    page-break-after: avoid;
+    break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Prevent prerequisite headers from being orphaned */
+  .prerequisite-header {
+    page-break-after: avoid;
+    break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Ensure pinned section doesn't break */
+  .pinned-section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Hide interactive elements when printing */
+  .search-container,
+  .clear-pins-btn,
+  mat-card-actions {
+    display: none !important;
+  }
+  
+  /* Optimize spacing for print */
+  .container {
+    padding: 12px;
+  }
+  
+  .responsive-grid {
+    gap: 12px;
+  }
+  
+  /* Ensure text is readable in print */
+  body, * {
+    color: black !important;
+    background: white !important;
+  }
+  
+  /* Keep important visual elements */
+  .pinned-card {
+    border-left: 4px solid #ff9800 !important;
+  }
+  
+  .level-header {
+    border-bottom: 2px solid #1976d2 !important;
+    color: #1976d2 !important;
+  }
+  
+  .prerequisite-header {
+    border-left: 3px solid #d32f2f !important;
+    color: #d32f2f !important;
+  }
+  
+  .prerequisite-header.no-prereq {
+    border-left-color: #4caf50 !important;
+    color: #4caf50 !important;
+  }
+}
