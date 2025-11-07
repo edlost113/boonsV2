@@ -148,9 +148,9 @@
 }
 
 .pinned-card {
-  border-left: 4px solid var(--border-warning) !important;
-  background-color: var(--bg-pinned-card) !important;
-  box-shadow: var(--shadow-card);
+  border-left: 4px solid var(--border-warning);
+  /* Add a subtle glow effect while preserving Material Design shadows */
+  filter: drop-shadow(0 2px 4px rgba(255, 152, 0, 0.2));
 }
 
 .boon-level {
