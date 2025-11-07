@@ -1,1178 +1,1178 @@
 [
-    {
-      "id": 1,
-      "name": "BOON OF COMBAT PROWESS",
-      "desc": "When you miss with a melee weapon attack, you can choose to hit instead. You can use this boon threes times afterwards you can't use it again until you finish a short rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 2,
-      "name": "BOON OF THE ANCHORED WILL",
-      "desc": "When you would be forced to move or teleported against your will, you can choose to remain in place instead. Usable three times per short rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 3,
-      "name": "BOON OF FATE",
-      "desc": "When another creature that you can see within 60 feet of you makes an ability check, an attack roll, or a saving throw , you can roll a d10 and apply the result as a bonus or penalty to the roll. Once you use this boon, you can't use it again until you finish a short rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 4,
-      "name": "BOON OF FORTITUDE",
-      "desc": "Your hit point maximum increases by 40.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 5,
-      "name": "BOON OF HIGH MAGIC",
-      "desc": "You gain one 9th-level spell slot, provided that you already have one. If you do not have a 9th level spell lot you gain a spell slot equal to one + your highest level spell slot. This grows with you until you reach 9th level spell slots.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 6,
-      "name": "BOON OF IMMORTALITY",
-      "desc": "You stop aging. You are immune to any effect that would age you, and you can't die from old age.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 7,
-      "name": "BOON OF INVINCIBILITY",
-      "desc": "When you take damage from any source, you can reduce that damage to 0. Once you use this boon, you can't use it again until you finish a short rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 8,
-      "name": "BOON OF IRRESISTIBLE OFFENSE",
-      "desc": "You can bypass the damage resistances of any creature.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 9,
-      "name": "BOON OF LUCK",
-      "desc": "You can add a d10 roll to any ability check, attack roll, or saving throw you make. Once you use this boon, you can't use it again until you finish a short rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 10,
-      "name": "BOON OF MAGIC IMMUNITY",
-      "desc": "You gain magic immunity up to level 3. When you take this boon additional times your magic immunity level increases by two, up to a max of 7th level magic immunity.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 11,
-      "name": "BOON OF MAGIC RESISTANCE",
-      "desc": "You have advantage on saving throws against spells and other magical effects.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 12,
-      "name": "BOON OF PEERLESS AIM",
-      "desc": "You can give yourself a +20 bonus to a ranged attack roll you make. You can use this boon threes times afterwards you can't use it again until you finish a short rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 13,
-      "name": "BOON OF PERFECT HEALTH",
-      "desc": "You are immune to all diseases and poisons, and you have advantage on Constitution saving throws.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 14,
-      "name": "BOON OF PLANAR TRAVEL",
-      "desc": "When you gain this boon, choose a plane of existence other than the Material Plane. You can now use an action to cast the plane shift spell (no spell slot or components required), targeting yourself only, and travel to the chosen plane, or from that plane back to the Material Plane. Once you use this boon, you can't use it again until you finish a short rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 15,
-      "name": "BOON OF QUICK CASTING",
-      "pre": "No prerequisite",
-      "desc": "Choose one of your spells of 1st through 3rd level that has a casting time of 1 action. That spell's casting time is now 1 bonus action for you.",
-      "lvl": 1
-    },
-    {
-      "id": 16,
-      "name": "BOON OF RECOVERY",
-      "desc": "You can use a bonus action to regain a number of hit points equal to half your hit point maximum. Once you use this boon, you can't use it again until you finish a long rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 17,
-      "name": "BOON OF RESILIENCE",
-      "desc": "You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons. (Some powerful creatures natural weapons - ie claws and teeth are still considered magical)",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 18,
-      "name": "BOON OF RESISTANCE",
-      "desc": "Once per long rest, when you fail a saving throw you may choose to succeed instead.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 19,
-      "name": "BOON OF SKILL PROFICIENCY",
-      "desc": "You gain proficiency in all skills.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 20,
-      "name": "BOON OF SPEED",
-      "desc": "Your walking speed increases by 30 feet. In addition, you can use a bonus action to take the Dash or Disengage action. Once you do so, you can't do so again until you finish a short rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 21,
-      "name": "BOON OF SPELL MASTERY",
-      "desc": "Choose one 1st-level sorcerer, warlock, or wizard spell that you can cast. You can now cast that spell at its lowest level without expending a spell slot.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    { 
-      "id": 22,
-      "name": "BOON OF SPELL RECALL",
-      "desc": "You can cast any spell you know or have prepared without expending a spell slot. Once you do so, you cant use this boon again until you finish a long rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 23,
-      "name": "BOON OF THE FIRE SOUL",
-      "desc": "You have immunity to fire damage. You can also cast burning hands (save DC 15) at will, without using a spell slot or any components.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 24,
-      "name": "BOON OF THE NIGHT SPIRIT",
-      "desc": "While completely in an area of dim light or darkness, you can become invisible as an action. You remain invisible until you take an action or a reaction.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 25,
-      "name": "BOON OF THE STORMBORN",
-      "desc": "You have immunity to lightning and thunder damage. You can also cast thunderwave (save DC 15) at will, without using a spell slot or any components.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 26,
-      "name": "BOON OF THE UNFETTERED",
-      "desc": "You have advantage on ability checks made to resist being grappled. In addition, you can use an action to automatically escape a grapple or free yourself of restraints of any kind.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 27,
-      "name": "BOON OF TRUESIGHT",
-      "desc": "You have truesight out to a range of 60 feet.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 28,
-      "name": "BOON OF UNDETECTABILITY",
-      "desc": "You gain a +10 bonus to Dexterity (Stealth) checks, and you can't be detected or targeted by divination magic, including scrying sensors.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 29,
-      "name": "BOON OF ARTIFACT AFFINITY",
-      "desc": "Pick 1 item that you are attuned to. That item becomes part of your demigod persona and merges with your physical form. You now gain the benefits of this item without needing to hold it and no longer use an attunement slot for it. You can summon or conjure the item to your hand as an action, cause it to merge back into your form or become invisible. Even if it is not summoned or held at the time when you take an action you can act as if you are using the item rather than whatever you might be wielding, as if the item is an extension of your body. Some restrictions may apply based on the item, and your physical form would change based on the item. As your legend spreads you'll be heavily associated with this item (think Zeus and his lightning bolts) This boon cannot be picked more than once.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 30,
-      "name": "BOON OF ENERGY INVESTMENT",
-      "desc": "You attune to the elemental energies of the universe. When casting a spell that deals fire, thunder, lightning or cold damage you can change its damage type to another of those types. In addition when taking this boon you gain immunity to one of those types. Your body takes on properties that correspond thematically to that element, altering your appearance. Additionally any energy around you seems more volatile, fires crackles louder and brighter, wind blows more fiercely, etc.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 31,
-      "name": "BOON OF RESURRECTION",
-      "desc": "You gain advantage on any spell casting abilities checks to return a soul to life",
-      "pre": "You must have died at some point and been brought back",
-      "title": "",
-      "lvl": 1
-    },
-    {
-      "id": 32,
-      "name": "BOON OF TITANS GRIP",
-      "desc": "You can wield a heavy or 2-handed weapon in 1 hand and use two-weapon fighting with such weapons.",
-      "pre": "You must at least have a Strength of 15",
-      "title": "",
-      "lvl": 1
-    },
-    {
-      "id": 33,
-      "name": "BOON OF DIVINE SIZE",
-      "desc": "You physical size grows to match your emerging power. You grow in size becoming 1 size larger",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 34,
-      "name": "BELOVED OF VALARIAN",
-      "pre": "You must be female, a follower of Valarian the unicorn god",
-      "desc": "You are bound to the service of a unicorn mount you can summon as an action. If the unicorn dies can be summoned again after 1 day",
-      "title": "",
-      "lvl": 1
-    },
-    {
-      "id": 35,
-      "name": "WYRM KNIGHT",
-      "pre": "Must be a martial class, and have a horde worthy of a dragon at least 100,000g in gold, gems, jewels, art etc.",
-      "desc": "You gain a +1 bonus to your AC and you gain the breath weapon of a young dragon of your choice. Once the breath weapon is used you cannot use it again until you take a long rest.",
-      "title": "Wyrm Knight/Dragon Knight",
-      "lvl": 1
-    },
-    {
-      "id": 36,
-      "name": "SCION OF ARKHOSIA",
-      "pre": "Must be a Dragonborn",
-      "desc": "You can pick a 2nd Draconic ancestry",
-      "title": "",
-      "lvl": 1
-    },
-    {
-      "id": 37,
-      "name": "DUNGEON LORD",
-      "desc": "Your building and horde are so amazing word starts to spread, creatures attuned to your alignment will come to serve and live in the new dungeon, you gain lair actions inside and regional effects (determined by your alignment, the building location etc), and teams of enemies not of your alignment will come to attack your dungeon, possibly bringing you even more treasure and fame. As your dungeon kills more and more enemies its fame grows, perhaps even more than the most famous of dungeons like the Tomb of Horrors",
-      "pre": "Must own a building and have a horde of over 100,000g there",
-      "title": "Lord of ______",
-      "lvl": 1
-    },
-    {
-      "id": 38,
-      "name": "LEGENDARY GENERAL",
-      "desc": "Once a day you can give a invigorating shout to restore one ability for an ally within 60 ft that would normally be recharged by a short rest. You also gain advantage on ability checks involving leadership or gaining a title",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 39,
-      "name": "SKYLORD",
-      "desc": "As a bonus action you can summon a spectral celestial giant eagle, celestial giant owl, or celestial pegasus which serve as a mount until slain or dismissed. While flying on your mount if you move at least 60ft in a straight line towards your target you deal an extra 2d6 damage A skylord's mount has +10 to AC, weapon dice is 1 larger (d6s become d8s, etc), has +10 speed, is immune to hold, paralysis, sleep, charms, and compulsions. As a bonus action you can activate Lightning Bolt, turning your form and your mounts form into lightning, you can then move 100 ft in a straight line, through creatures but not solid objects. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.",
-      "pre": "Elf or half-elf",
-      "title": "Skylord",
-      "lvl": 1
-    },
-    {
-      "id": 40,
-      "name": "HANDS OF THE KING",
-      "desc": "Once a day as an action you can touch a creature. The target magically restores 30 hit points and has lesser restoration cast on it. Taking this feat again heals an extra 30 hit points and casts greater restoration on the target. Taking this feat a 3rd time heals an extra 30 hit points and casts Raise Dead with no need of components if the target is dead.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 41,
-      "name": "BOON OF THE RAVAGER",
-      "desc": "At the very start of your turn, even if you cannot act but as long as you have 1 hit point or more and are raging, you are cured of 1 condition of your choice currently afflicting you and gain 10 hit points",
-      "title": "Ravager",
-      "pre": "Barbarian lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 42,
-      "name": "BOON OF THE TRUESPEAKER",
-      "desc": "Your Bardic Inspiration now affects all allies within a 15 ft radius circle within 60 ft. You also learn two additional spells from any class",
-      "title": "Truespeaker",
-      "pre": "Bard lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 43,
-      "name": "BOON OF THE SONG OF FATE",
-      "desc": "You have learned to open your ears to play with the song of fate itself. Any of Mesgralli's Bardic Inspiration dice can be treated as having rolled their maximum, if they choose",
-      "title": "Mesgralli",
-      "pre": "Bard lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 44,
-      "name": "BOON OF THE RIGOROUS RITE",
-      "desc": "Your mastery over the Crimson Rite has fortified your body's resilience to the very energies you harness. Whenever you have an active Crimson Rite on a weapon, you gain immunity to the damage type associated with the active Rite. Also, once per short rest, you may activate a Crimson Rite as a free action.",
-      "title": "Paragon of Order",
-      "pre": "Blood Hunter lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 45,
-      "name": "BOON OF THE SANGUINE CURSE",
-      "desc": "You no longer take damage when amplifying a blood curse. Instead you heal, equal to 2 times the roll of your hemocraft die. Also, all Blood Curses have their range increased to 90ft",
-      "title": "Damned",
-      "pre": "Blood Hunter lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 46,
-      "name": "BOON OF THE ASCENDANT",
-      "desc": "Your spell casting becomes divinely endowed. Any 4th level domain spell you cast using a 4th level spell slot or below is treated as if it was cast as 4th level. As well when casting a spell requiring concentration you can expend another spell slot to cause the spell to persist without concentration",
-      "title": "Ascendant",
-      "pre": "Cleric lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 47,
-      "name": "BOON OF THE EMERGENT PRIMORDIAL",
-      "desc": "You start to merge further into your connection to a specific elemental plane. You gain the following traits depending on which elemental plane you choose:\n**Air Elemental** - Fly speed of 90 ft and Air Form trait\n**Earth Elemental** - Burrow speed of 30 ft and Earth Glide and Siege Monster traits\n**Fire Elemental** - Fire form and Illumination traits\n**Water Elemental** - Swim speed of 90 ft and Water Form trait\nYou also gain resistance to your choice of element and add 1d6 of that element to any physical attacks you make.\nYou gain these traits regardless of what form you are Wild Shaped into.",
-      "title": "Emergent Primordial",
-      "pre": "Druid lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 48,
-      "name": "BOON OF THE LEVIATHAN",
-      "desc": "You gain the ability to turn into more powerful and larger creatures. The Max. CR of a creature you can turn into is increased by 5.",
-      "title": "The Leviathan",
-      "pre": "Druid lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 49,
-      "name": "BOON OF THE FOCUSED SHIFTER",
-      "desc": "You gain the ability to turn into 1 type of creatures besides just beasts\n Choose between:\n**Abberations**\n**Giants**\n**Monstrosities**\n**Oozes**\n**Plants**\n**Undead**",
-      "title": "",
-      "pre": "Druid lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 50,
-      "name": "BOON OF THE DREADNOUGHT",
-      "desc": "You gain a +3 bonus to your AC",
-      "title": "Dreadnought",
-      "pre": "Fighter lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 51,
-      "name": "BOON OF THE SCALE BREAKER",
-      "desc": "You gain advantage on saving throws against dragon fear and breath weapons, and you deal an extra dice of damage anytime you strike a dragon with a melee weapon attack",
-      "title": "Scale Breaker",
-      "pre": "Fighter lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 52,
-      "name": "BOON OF THE BATTLE CRY",
-      "desc": "You can give a shout that invigorates each ally within 40 ft. These allies gain damage resistance to all damage, they can dash as a bonus action and they cannot be stopped or slowed by any effects. This cry lasts until the end of your next turn.",
-      "title": "Battle Cryer",
-      "pre": "Fighter lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 53,
-      "name": "BOON OF THE ENLIGHTENED FIST",
-      "desc": "Whenever you spend a Ki point your fists and monk weapons deal an extra 1d10 damage until the start of your next turn (this can stack if you spend more than 1 Ki point)",
-      "title": "Enlightened Fist",
-      "pre": "Monk lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 54,
-      "name": "BOON OF THE ONE PUNCH",
-      "desc": "When hit a creature with an attack you may spend any amount of remaining movement and deal an extra d6 of damage per 10 feet of movement spent.",
-      "title": "One Punch",
-      "pre": "Monk lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 55,
-      "name": "BOON OF THE CRUSADER",
-      "desc": "You gain the ability to sanctify an action once per round\n**Sanctified Attack Action** - When taking the attack action you attack 3 times\n**Sanctified Channel Divinity** - When you use your Channel Divinity feature you also regain two 5th level spell slots\n**Sanctified Lay On Hands** - You restore x2 as many hit points, the ability has a range of 120 ft and this effect cannot be reduced or prevented by any effect",
-      "title": "Crusader",
-      "pre": "Paladin lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 56,
-      "name": "BOON OF THE SLAYER",
-      "desc": "When you choose this boon choose a creature type. You become the slayer of those creatures. When striking a creature of your chosen type with a smite you do an extra d8 of damage (Capped to 6d8) to that creature, you also damage all other creatures of that type within 10 ft of the target for 1/2 of the total damage of the strike.",
-      "title": "_____slayer",
-      "pre": "Paladin lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 57,
-      "name": "BOON OF MULTI-SHOT",
-      "desc": "You can now maintain concentration on up to 3 instances of Hunters Mark (still have to be cast separately) When you make a ranged weapon attack against 1 of the creatures you have marked you also make an attack against all other creatures you have marked as long as they are in range and you are able to see them",
-      "title": "Slayer",
-      "pre": "Ranger lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 58,
-      "name": "BOON OF THE ARCANE ARCHER",
-      "desc": "When making a ranged weapon attack you can select an element (fire, cold, acid, necrotic, lightning, force) and all damage you do to deals that specific elemental damage instead and deals an extra 1d6 damage",
-      "title": "Arcane Archer",
-      "pre": "Ranger lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 59,
-      "name": "BOON OF THE BEAST TAMER",
-      "desc": "Your beast companion turns into a more powerful and larger creatures. The Max. CR of a beast you can have as a companion is increased by 5. Your beast companion also can no longer be slowed by difficult terrain (even magical terrain) and has advantage on saving throws against environmental effects.",
-      "title": "Tamer of Beasts",
-      "pre": "Ranger lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 60,
-      "name": "BOON OF THE MAGICAL BEAST",
-      "desc": "Your beast companion can equip items that they could reasonably use and wield, it has 3 attunement slots",
-      "title": "Magic Beast Tamer",
-      "pre": "Ranger lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 61,
-      "name": "BOON OF THE PHASE ARROW",
-      "desc": "Once per minute you can shoot an arrow through any magic barrier or cover or even through solid structures. If you know a creature is there but cannot see it you still get to -5 to your attack roll. Hitting a creature that cannot see you shooting deals sneak attack damage.",
-      "title": "Phase Arrow",
-      "pre": "Rogue lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 62,
-      "name": "BOON OF THE BLADE",
-      "desc": "Your sneak attack now deals 10d10 damage",
-      "title": "Blade",
-      "pre": "Rogue lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 63,
-      "name": "BOON OF THE ELEMENTAL LORD",
-      "desc": "You further infuse yourself to a specific elemental power\n\n**Title Gained: Stormlord** When you cast a spell that deals lightning or thunder damage you cast it as if it was 4 levels higher\n**Title Gained: Stonelord** When you cast a spell that deals bludgeoning damage you cast it as if it was 4 levels higher\n**Title Gained: Firelord** When you cast a spell that deals fire damage you cast it as if it was 4 levels higher\n**Title Gained: Oceanlord** When you cast a spell that deals cold damage you cast it as if it was 4 levels higher\n**Title Gained: Salvelord** When you cast a spell that heals a creature you cast it as if it was 4 levels higher",
-      "title": "____lord",
-      "pre": "Sorcerer lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 64,
-      "name": "BOON OF THE DEMONOLIGIST",
-      "desc": "Once a day as an action you can attempt to summon a demon. A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for l minute or its summoner dies, or until 1ts summoner dismisses it as an action. You can summon 1d4 vrocks, ld2 hezrous or 1 glabrezus",
-      "title": "Demonoligist",
-      "pre": "Warlock lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 65,
-      "name": "BOON OF THE OVERLORD",
-      "desc": "You can now use your Eldritch Master class ability as bonus action rather than it taking 1 minute",
-      "title": "Overlord",
-      "pre": "Warlock lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 66,
-      "name": "BOON OF THE MASTER BLASTER",
-      "desc": "Your Eldritch Blast becomes even more empowered. Creatures can not benefit from magic immunity, spells that would increase its ac, spells that altar your attack roll, or from damage immunity/resistances against your Eldritch Blasts.",
-      "title": "Master Blaster",
-      "pre": "Warlock lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 67,
-      "name": "BOON OF THE WARD BREAKER",
-      "desc": "As an action you can attempt to lessen the magical immunity of a target creature. Make an arcana check, the DC equals 10+(3xCurrent level of Magical Immunity). On a success you remove a level of magical immunity. If you are successful by 10 or more remove an additional level of magical immunity. If you roll a natual 20 2 level of magical immunity are removed regardless of the total roll.",
-      "title": "Ward Breaker",
-      "pre": "Wizard lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 68,
-      "name": "BOON OF THE ARCANE SAVANT",
-      "desc": "When making an intelligence check/skill roll you can treat a roll of 9 or lower as a 10 You also gain additional 9th level spell slot.",
-      "title": "Arcane Savant",
-      "pre": "Wizard lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 69,
-      "name": "BOON OF THE ARCHMAGE",
-      "desc": "When casting a 6th level spell or lower with a casting time of 1 action you may simultaneously cast a 1st level spell with a casting time of 1 action. You also gain another 9th level spell slot",
-      "title": "Archmage",
-      "pre": "Wizard lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 70,
-      "name": "BOON OF THE BATTLE ARTIFICER",
-      "desc": "You gain 1 additional attunement slot. This boon cannot be picked more than once but does stack with the Boon of Artifact Affinity.",
-      "title": "Battle Artificer",
-      "pre": "Artificer lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 71,
-      "name": "BOON OF THE MASTER OF THE FORGE",
-      "desc": "Your talents with a forge and magic items are legendary. During a short rest you can work to temporarily improve 1 non-magical item, turning it into a +3 weapon, armor or shield until your next short rest. You can also make magic items x2 as fast as normal.",
-      "title": "Master of the Forge",
-      "pre": "Artificer lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 72,
-      "name": "BOON OF IMMORTALITY",
-      "desc": "Your soul is a priceless treasure, you dont age (even from magical sources) and if you reach 0 hp you can spend your reaction to spend hit dice as if finishing a short rest.",
-      "title": "______ The Immortal",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 73,
-      "name": "BOON OF EXTRAORDINARY CONCENTRATION",
-      "desc": "You maintain concentration through unconscious or incapacitated conditions, and even through death. You don't need to make concentration checks when taking under 50 damage.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 74,
-      "name": "BOON OF EMPOWERED OFFENSE",
-      "desc": "When casting a spell that targets a creature with magic immunity, you can empower your spell, bypassing their magical immunity. Creatures targeted by an empowered spell have advantage on saves against that spell. Additionally empowered spells have disadvantage on attack rolls.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 75,
-      "name": "BOON OF THE DEATH BRINGER",
-      "desc": "If you physically strike a creature of CR 10 or less it instantly dies. So potent are you killing abilities that the afterlife fills with the souls of your victims, making you legend in those planes",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 76,
-      "name": "BOON OF THE ARCANE MASTER",
-      "desc": "Your spell save DC becomes 12 + prof + spell casting modifier",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 77,
-      "name": "BOON OF THE SPELL LORD",
-      "desc": "Your spells against any creature of CR 10 or less automatically succeed and deal maximum damage. Your spell attacks critical hit on a 18-20. All creatures automatically assume your the most powerful spell caster in the room.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 78,
-      "name": "BOON OF PERFECT HEALTH",
-      "desc": "Your body is in perfect health. Your maximum HP is as if you rolled the maximum on each hit dice roll when leveling up.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 79,
-      "name": "BOON OF THE PARAGON",
-      "desc": "You increase your proficiency by 1 and become a perfect specimen of your species, with perfect body features for your species. If you have a child it is born with this Boon.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 80,
-      "name": "BOON OF THE SPELL SLINGER",
-      "desc": "You can cast cantrips as bonus actions and you can use your reaction twice in a turn to cast a spell with a casting time of a reaction.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 81,
-      "name": "BOON OF EVEN HIGHER MAGIC",
-      "desc": "You gain one 10th-level spell slot.",
-      "title": "",
-      "pre": "Have a 9th-level spell slot",
-      "lvl": 3
-    },
-    {
-      "id": 82,
-      "name": "BOON OF HIGHEST MAGIC",
-      "desc": "You gain one 11th-level spell slot.",
-      "title": "",
-      "pre": "Have a 10th-level spell slot",
-      "lvl": 3
-    },
-    {
-      "id": 83,
-      "name": "BOON OF 10th LEVEL MAGIC",
-      "desc": "You can pick one 10th level spell which you learn to cast.",
-      "title": "",
-      "pre": "Have a 10th-level spell slot",
-      "lvl": 3
-    },
-    {
-      "id": 84,
-      "name": "BOON OF 11th LEVEL MAGIC",
-      "desc": "You can pick one 11th level spell which you learn to cast.",
-      "title": "",
-      "pre": "Have a 11th-level spell slot",
-      "lvl": 3
-    },
-    {
-      "id": 85,
-      "name": "BOON OF LESSER BOONS",
-      "desc": "You gain two 1st level Boons.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 86,
-      "name": "BOON OF GREATER ARTIFACT AFFINITY",
-      "desc": "Pick 1 item that you are attuned to. That item becomes part of your demigod persona and merges with your physical form. You now gain the benefits of this item without needing to hold it and no longer use an attunement slot for it. You can summon or conjure the item to your hand as an action, cause it to merge back into your form or become invisible. Even if it is not summoned or held at the time when you take an action you can act as if you are using the item rather than whatever you might be wielding, as if the item is an extension of your body. Some restrictions may apply based on the item, and your physical form would change based on the item. As your legend spreads you'll be heavily associated with this item (think Zeus and his lightning bolts) This boon cannot be picked more than once.",
-      "title": "",
-      "pre": "Have the Boon of Artifact Affinity",
-      "lvl": 3
-    },
-    {
-      "id": 87,
-      "name": "BOON OF THE SUMMONER",
-      "desc": "You double the number of creatures you summon from conjuration spells",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 88,
-      "name": "BOON OF THE DRAGON LORD",
-      "desc": "You gain lair actions at a building you own (depending on the type of dragon you are), your breath becomes the adult dragons version, and you gain permanent spectral dragon wings granting you a fly speed of 80 ft. And you gain a legendary resistance, so once per day if you fails a saving throw, you can choose to succeed instead.",
-      "title": "Dragon Lord",
-      "pre": "Be a Wrym Knight",
-      "lvl": 3
-    },
-    {
-      "id": 89,
-      "name": "TALON OF TIAMAT",
-      "desc": "When using your breath weapon roll a d4, you can also use that many other chromatic dragon breaths at the same time (your choice which kind)",
-      "title": "Talon of Tiamat",
-      "pre": "Be a Wrym Knight of a chromatic dragon",
-      "lvl": 3
-    },
-    {
-      "id": 90,
-      "name": "MYTHIC LEADER",
-      "desc": "Once a day you can give a invigorating shout to restore one ability for an ally within 60 ft that would normally be recharged by a long rest. You can also start recruiting a 1000 personal army from the surrounding area.",
-      "title": "",
-      "pre": "Be a Legendary General",
-      "lvl": 3
-    },
-    {
-      "id": 91,
-      "name": "BOON OF MULTI-CLASS",
-      "desc": "You gain a level in a class of your choice. This cannot raise a class over 20.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 92,
-      "name": "BOON OF MULTI-SUBCLASS",
-      "desc": "You can pick another subclass from a class you have a subclass selected alread and gain all the benefits and features from that new class as well.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 93,
-      "name": "BOON OF FEATS",
-      "desc": "You can select 3 feats (still have to pass any requirements to pick those feats)",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 94,
-      "name": "BOON OF GREATER SPEED",
-      "desc": "All your speeds (walking, flying, swimming) increase by 10ft. This includes any ability or spell that normally would have a set speed limit.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 3
-    },
-    {
-      "id": 95,
-      "name": "BOON OF DIETY ARTIFACT AFFINITY",
-      "desc": "Pick 2 items that you are attuned to. Those items becomes part of your demigod persona and merges with your physical form. You now gain the benefits of this item without needing to hold it and no longer use an attunement slot for it. You can summon or conjure the item to your hand as an action, cause it to merge back into your form or become invisible. Even if it is not summoned or held at the time when you take an action you can act as if you are using the item rather than whatever you might be wielding, as if the item is an extension of your body. Some restrictions may apply based on the item, and your physical form would change based on the item. As your legend spreads you'll be heavily associated with this item (think Zeus and his lightning bolts) This boon cannot be picked more than once.",
-      "title": "",
-      "pre": "Have the Boon of Greater Artifact Affinity",
-      "lvl": 5
-    },
-    {
-      "id": 96,
-      "name": "BOON OF THE RAGEBORN",
-      "desc": "Literally become to angry to die. You become immune to the unconscious condition while raging. While at 0 hp, you make death saving throws at the start of your turns. Success does nothing, but a 20 grants 1 hp as normal. 3 failed attempts and you die. Once per round when making a Charisma, Intelligence or Wisdom saving throw you can instead make a Strength Saving Throw.",
-      "title": "Rageborn",
-      "pre": "Barbarian lvl 9",
-      "class": "Barbarian",
-      "lvl": 4
-    },
-    {
-      "id": 97,
-      "name": "BOON OF THE ALL SPEAKER",
-      "desc": "You can take a class specific boon from any other class",
-      "title": "All Speaker",
-      "pre": "Bard lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 98,
-      "name": "BOON OF INSPIRED INSPIRATION",
-      "desc": "Your inspiration die becomes a d20",
-      "title": "",
-      "pre": "Bard lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 99,
-      "name": "BOON OF THE DEMIGOD",
-      "desc": "You begin to receive worship from those followers that revere you as the paragon saint of your deity. You become immortal, no longer aging, or need to sleep, eat or drink. If slain your body and items are reduced to divine essense and reform over a period of 7 days on a plane associated with your divine nature at a location of your choice. Any 5th level domain spell you cast using a 5th level spell slot or below is treated as if it was cast as 5th level. In addition when you fail a saving throw you can use your reaction and a use of Channel Divinity to succeed instead.\nIn a 10 minute ritual you can reach out into the cosmos with your new divine powers. You take temporarily control over the sun, stars and planets and move them along their path in the sky. Your divine powers means this movement does not cause any direct damage, but can alter the weather or time of day. Once used this cannot be done again for 1 week.",
-      "title": "Demigod",
-      "pre": "Cleric lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 100,
-      "name": "BOON OF THE PRIMORDIAL",
-      "desc": "You gain immunity to your choice of element and now add 3d6 of that element to any physical attacks you make. When you die you merge into that elemental plane.",
-      "title": "Primordial",
-      "pre": "Druid lvl 9 & Requires the Boon of the Emergent Primordial",
-      "lvl": 4
-    },
-    {
-      "id": 101,
-      "name": "BOON OF THE DRAGONSOUL",
-      "desc": "You are able to transform into any young chromatic or metallic dragon",
-      "title": "Dragonsoul",
-      "pre": "Druid lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 102,
-      "name": "BOON OF THE GREATER DRAGONSOUL",
-      "desc": "You are able to transform into any adult chromatic or metallic dragons, and unique dragons like Dragon Turtles, Sea Dragons, Mithril Dragons, Gem Dragons",
-      "title": "Greater Dragonsoul",
-      "pre": "Druid lvl 9 & Requires the Boon of the Dragonsoul",
-      "lvl": 4
-    },
-    {
-      "id": 103,
-      "name": "BOON OF THE KING/QUEEN OF THE WILD",
-      "desc": "All beasts are friendly to you, you can speak with them and they will follow your commands",
-      "title": "King/Queen of the Wild",
-      "pre": "Druid lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 104,
-      "name": "BOON OF THE GREATER BATTLE CRY",
-      "desc": "When you take an Action Surge you also allow all allied to take any extra action on their turn before the start of your next turn",
-      "title": "Greater Battle Cryer",
-      "pre": "Fighter lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 105,
-      "name": "BOON OF THE VOID",
-      "desc": "You gain a flight speed of 100 ft and if you move 100 ft in a straight line at a target your first strike deals an extra 2d10 damage",
-      "title": "One With The Void",
-      "pre": "Monk lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 106,
-      "name": "BOON OF THE LIVING SAINT",
-      "desc": "All auras you create affect all allies engaged in combat with you if you wish them to",
-      "title": "Living Saint",
-      "pre": "Paladin lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 107,
-      "name": "RICHTER'S BOON",
-      "desc": "Whenever a hostile creature attempts to make a save within 10 feet of you, reduce the rolled value by your charisma modifier",
-      "title": "",
-      "pre": "Paladin lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 108,
-      "name": "BOON OF DIVINE MULTI-SHOT",
-      "desc": "Hunters Mark no longer requires concentration for you, you can have as many marks up as you want and your multi attack will fire on them all as long you can see them and they are in range.",
-      "title": "Rapid Slayer",
-      "pre": "Ranger lvl 9 & Requires the Boon of Multi-shot",
-      "lvl": 4
-    },
-    {
-      "id": 109,
-      "name": "BOON OF THE BEASTLORD",
-      "desc": "Removes any restrictions of type of creature that can be a companion and the Max. CR of a creature you can have as a companion is 15",
-      "title": "Beastlord",
-      "pre": "Ranger lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 110,
-      "name": "BOON OF THE DEADLY BLADE",
-      "desc": "Once a day you can perform an attack that hits any creatures in your range that you would get sneak attack against, you roll to attack each target, you then roll sneak attack damage and it applies to all targets",
-      "title": "Deadly Blade",
-      "pre": "Rogue lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 111,
-      "name": "BOON OF THE ARTIFICER MASTER",
-      "desc": "Your Soul of Artifice ability now allows you to be attuned to 12 magic items at once.",
-      "title": "Artificer Master",
-      "pre": "Artificer lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 112,
-      "name": "BOON OF THE ARCANE MASTER",
-      "desc": "Choose a 7th level spell or less to master, you can then use any spell slot of 7th level or less to cast this spell as if it was cast at 7th level. You also gain a 10th level spell slot",
-      "title": "Master of the Arcane",
-      "pre": "Wizard lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 113,
-      "name": "BOON OF THE GRAND TRADITION",
-      "desc": "Choose a school you have selected as an Arcane Tradition.\nChoose a 1st level spell from this school, you can now cast it as a cantrip.\n**Abjuration**: you gain +1 bonus to saving throws against magic effects\n**Conjuration**: when you summon creatures with a conjuration spell, they all have resistances to one damage type of your choice.\n**Divination**: when you finish a long rest, roll 2 d20s and record the results. Anytime before your next long rest, you can substitute any d20 roll for one of the rolls you made. You can only use each roll once.\n**Enchantment**: The number of targets of your enchantment spells is doubled.\n**Evocation**: If you have a damaging spell that requires a dexterity saving throw, traits such as Indomitable or Evasion do not function for the save\n**Illusion**: If you have an illusion spell that allows you to choose one of multiple illusory effects, you can choose two, instead\n**Necromancy**: If you have a spell that raises creatures from the dead, you can raise 3 more creatures from the dead.\n**Transmutation**: While affected by a transmutation spell of 1st level or higher, you have a bonus to your AC equal to your spellcasting ability modifier.",
-      "title": "Master of the _____ School",
-      "pre": "Wizard lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 114,
-      "name": "BOON OF THE DEAD GOD FRAGMENT",
-      "desc": "The divine essense grants you +5 to all stats (max 20). You gain advantage on death saving throws and must fail two additional death saving throws to be killed while at 0 hit points.",
-      "title": "The Fragment",
-      "pre": "You must find the remnant of a dead god to absorb & Warlock lvl 9",
-      "lvl": 4
-    },
-    {
-      "id": 115,
-      "name": "BOON OF THE GREATER DEMONOLIGIST",
-      "desc": "Once a day as an action you can attempt to summon a demon. A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for l minute or its summoner dies, or until 1ts summoner dismisses it as an action. You can summon 1d4 nalfeshnees, 1d2 mariliths, or 1 goristro",
-      "title": "Greater Demonoligist",
-      "pre": "Warlock lvl 9",
-      "lvl": 4
-    },
-    {
-      "id":116,
-      "name": "BOON OF THE WILD MAGE",
-      "desc": "When you cast a spell you can choose to pick a specific wild magic surge effect you want to happen. If prompted to roll on the Wild Magic table this will stack with whatever you roll. You can do this once equal to your charisma bonus, recharging on a long rest.",
-      "title": "Wild Mage",
-      "pre": "Sorcerer lvl 9",
-      "lvl": 4
-    },
-    {
-      "id":117,
-      "name": "BOON OF THE ARCHON",
-      "desc": "When you deal damage from a spell roll a d20, on a roll of 11 or higher you deal an extra dice of damage and roll the d20 again. This continues until you roll 10 or under.",
-      "title": "ARCHON",
-      "pre": "Sorcerer lvl 9",
-      "lvl": 4
-    },
-    {
-      "id":118,
-      "name": "BOON OF THE GREATER ELEMENTAL LORD",
-      "desc": "As an action you can attempt to strip a creature within 60 ft of you of its elemental immunity based on the element you chose when you chose the boon of the elemental lord. Roll a Charisma save the DC to change immunity to resist is 40, the DC to change resist to normal damage is 36. the DC to change normal to vulnerable is 40. Lasts until the creature takes a long rest. Failures cause d10000 wild magic surge",
-      "title": "",
-      "pre": "Sorcerer lvl 9 & Boon of the Elemental Lord",
-      "lvl": 4
-    },
-    {
-      "id":119,
-      "name": "BOON OF GREATER BOONS",
-      "desc": "You gain two 3rd level Boons.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 5
-    },
-    {
-      "id":120,
-      "name": "BOON OF MASTER TACTICIAN",
-      "desc": "When you have advantage roll 3d20s and take the highest result rather than 2d20s",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 5
-    },
-    {
-      "id":121,
-      "name": "BOON OF 12th LEVEL MAGIC",
-      "desc": "You can pick one 12th level spell which you learn to cast.",
-      "title": "",
-      "pre": "Have a 12th-level spell slot",
-      "lvl": 5
-    },
-    {
-      "id":122,
-      "name": "BOON OF DIVINE MAGIC",
-      "desc": "You gain one 12th-level spell slot.",
-      "title": "",
-      "pre": "Have a 11th-level spell slot",
-      "lvl": 5
-    },
-    {
-      "id":123,
-      "name": "BOON OF GREATER FEATS",
-      "desc": "You can select 10 feats (still have to pass any requirements to pick those feats)",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 5
-    },
-    {
-      "id":124,
-      "name": "BOON OF GODLY MULTI-CLASS",
-      "desc": "You gain 5 levels in a class of your choice. This cannot raise a class over 20.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 5
-    },
-    {
-      "id":125,
-      "name": "BOON OF PARTIAL DIVINITY",
-      "desc": "Increase a single attribute to 30",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 5
-    },
-    {
-      "id":126,
-      "name": "CRITICAL SPELL CASTER",
-      "desc": "When you cast a spell that deals damage that causes the targets to make a saving throw, roll a d20. On a 20 the spells damage dice are doubled (on a 1 the spell does not fail).",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 5
-    },
-    {
-      "id":127,
-      "name": "CRITICAL WEAPON MASTER",
-      "desc": "You gain +1 to your critical hit range (if you should crit on 20 you now crit on a 19-20, if you would crit on an 18-20 you would crit on 17-20) and when you score a critical hit you deal x3 the damaged dice rather than x2",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 5
-    },
-    {
-      "id":128,
-      "name": "BOON OF PHOENIX",
-      "desc": "Your inner spirit transforms into the fearsome fire of a phoenix. You can radiate heat and light from your body enough to emit bright light in a 15 foot radius and dim light in an additional 15 foot radius. Your eyes become bright gold and fiery red. You can heat an object you are touching to ignition if it is a material that can be ignited.\nYou gain the following benefits:\nYou absorb fire and radiant damage, being healed for the amount of damage dealt.\nYou are immune to poison damage, along with the charmed, frightened and poisoned conditions.\nYou sprout magnificent gold and fiery red wings.\nThese wings give you a flying speed of 120 feet.\nYou can use a bonus action to make the wings either disappear or appear.\nYou can also make the light surrounding you appear and disappear at will.\nYou are immune to the wet, cold and heat from environmental exposure, can survive incredibly high altitudes, and cannot gain more than four levels of exhaustion.\nIf you should die, your body bursts into flames and becomes ashes.\nIf your ashes are kept together for 1d10 days, you are reborn as if a True Resurrection spell was used.",
-      "title": "The Reborn",
-      "pre": "Must have found a phoenix egg and merged with it",
-      "lvl": 5
-    },
-    {
-      "id":129,
-      "name": "BOON OF CELESTIAL",
-      "desc": "Your soul has become so pure your form has manifested into the form of a celestial.\nYou gain the following benefits: \nYou are resistance to radiant, necrotic and poison damage.\nYou sprout angelic wings that radiate with glory and power. These wings give you a flying speed of 120 feet.\nYour weapon attacks deal an extra 3d8 radiant damage\nHealing Touch (3/Day). As an action you touch another creature. The target magically regains 6d8 + 3 hit points and is freed from any curse, disease, poison, blindness, or deafness",
-      "title": "The Celestial",
-      "pre": "Good alignment",
-      "lvl": 5
-    },
-    {
-      "id":130,
-      "name": "BOON OF FIEND",
-      "desc": "Your soul has become so pure your form has manifested into the form of a fiend.\nYou gain the following benefits:\nYou are resistance to fire and poison damage.\nYou sprout demonic wings that radiate with fear and power. These wings give you a flying speed of 120 feet.\nYour weapon attacks deal an extra 3d8 radiant damage\nHealing Touch (3/Day). As an action you touch another creature. The target magically regains 6d8 + 3 hit points and is freed from any curse, disease, poison, blindness, or deafness",
-      "title": "The Enemy",
-      "pre": "Evil alignment",
-      "lvl": 5
-    },
-    {
-      "id": 131,
-      "name": "BOON OF DIMENSIONAL TRAVEL",
-      "desc": "As an action, you can cast the misty step spell, without using a spell slot or any components. You can use this boon threes times afterwards you can't use this boon again until you finish a short rest.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 132,
-      "name": "BOON OF THE ECHOING STEP",
-      "desc": "Once per short rest, you can briefly phase through obstacles when you Dash. For that movement, you ignore difficult terrain and can pass through creatures as if they were difficult terrain, dealing force damage equal to your proficiency bonus to each creature you pass through.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 133,
-      "name": "BOON OF IRON GRASP",
-      "desc": "Your grip is unbreakable. You add your Strength and additional time when determining the outcome of your grapples, and creatures you grapple are also restrained until they escape.",
-      "title": "",
-      "pre": "No prerequisite",
-      "lvl": 1
-    },
-    {
-      "id": 134,
-      "name": "Boon of the Soul Shephard",
-      "desc": "When you cast a spell that restores a creature to life (revivify, raise dead, etc.), you do not need material components worth less than 1,000 gp. Once per long rest, when you touch a creature that has died within the last minute, it returns to life at 1 hit point without expending a spell slot.",
-      "title": "",
-      "pre": "You must have died at some point and been brought back",
-      "lvl": 1
-    },
-    {
-      "id": 135,
-      "name": "Boon of the Stalwart Mind",
-      "desc": "You have immunity to psychic damage. You can alsocast wrathful smite (save DC 15) at will, without using aspell slot or any components.",
-      "title": "",
-      "pre": "",
-      "lvl": 1
-    },
-    {
-      "id": 136,
-      "name": "Boon of Swift Strike",
-      "desc": "When you take the Attack action, you may make oneadditional weapon attack as part of that action.",
-      "title": "",
-      "pre": "",
-      "lvl": 1
-    },
-    {
-      "id": 137,
-      "name": "Boon of The Watcher",
-      "desc": "You gain proficiency in Perception and Insight, orexpertise if you already had proficiency. In addition, youcan’t be surprised while conscious.",
-      "title": "",
-      "pre": "",
-      "lvl": 1
-    },
-    {
-      "id": 138,
-      "name": "Boon of the Dreamveil",
-      "desc": "As a bonus action, you can blur your form in phantasmal echoes. Until the start of your next turn, attack rolls against you have disadvantage.",
-      "title": "",
-      "pre": "",
-      "lvl": 1
-    },
-    {
-      "id": 139,
-      "name": "Boon of the Sacred Bulwark",
-      "desc": "Creatures within your Aura of Protection gain a bonusto their AC equal to your Charisma Modifier.Additionally, when you use Lay on Hands, the healedcreature gains resistance to all damage until the start ofyour next turn.",
-      "title": "Sacred Bulwark",
-      "pre": "Paladin lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 140,
-      "name": "Boon of Improved Strikes",
-      "desc": "The die cost for your Cunning Strike options isreduced by an amount equal to half your proficiencybonus, rounded up, to a minimum of 1 die. If a Cunning Strike effect requires a saving throw, thetarget creature cannot benefit from having advantage onthe saving throw.",
-      "title": "Striker",
-      "pre": "Rogue lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 141,
-      "name": "BOON OF THE BRUTAL KILLER",
-      "desc": "Whenever using your Brutal Strike feature you gainthe following features: <li>Your crit range expands by one.</li><li>When you crit against a creature you may forgorolling damage die and use max damage instead.</li><li>When you crit against a creature you may apply anynumber of Brutal Stirke effects.</li>",
-      "title": "Brutalist",
-      "pre": "Barbarian lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 142,
-      "name": "Boon of the Juggernaut",
-      "desc": "While raging, you gain immunity to bludgeoning,piercing, and slashing damage from nonmagicalsources. In addition, when you enter a rage, you gaintemporary hit points equal to twice your level.",
-      "title": "Juggernaut",
-      "pre": "Barbarian lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 143,
-      "name": "Boon of the Bloodfury",
-      "desc": "Each time you take damage while raging, you gain astacking +1 bonus to attack rolls and damage rolls untilthe end of your rage (max +5). If you end your turnwithout attacking on your turn, you take damage equalto 5 times this bonus.",
-      "title": "Bloodfury",
-      "pre": "Barbarian lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 144,
-      "name": "BBOON OF THE UNBREAKABLE",
-      "desc": "Your song inspires the mind, fortifying it to nearimpenetrable status. Creatures that have one of yourBardic Inspiration die can not be charmed, frighted,stunned, or paralyzed.",
-      "title": "Unbreakable",
-      "pre": "Bard lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 145,
-      "name": "Boon of the Eternal Echo",
-      "desc": "Once per short rest, when you cast a spell with verbalcomponents, it resonates beyond you. One ally within30 feet canuse their reaction to immediately cast thesame spell at its lowest level without expending a spellslot or using components.",
-      "title": "Echoheart",
-      "pre": "Bard lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 146,
-      "name": "Boon of the Jester’s Mockery",
-      "desc": "When you use Vicious Mockery, you may target twoadditional creatures instead of one. Once per long rest,you may force all hostile creatures within 30 feet tomake a Wisdom saving throw or fall prone inuncontrollable laughter as though affected by HideousLaughter until the end of your next turn.",
-      "title": "Jester",
-      "pre": "Bard lvl 3",
-      "lvl": 2
-    },
-    {
-      "id": 147,
-      "name": "Boon of the Lover’s Charm",
-      "desc": "Your gaze carries irresistible allure. You can castcharm person at will without expending a spell slot.Once per short rest, you may cast charm monster.",
-      "title": "Enchanter",
-      "pre": "Bard lvl 3",
-      "lvl": 2
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Boon of Combat Prowess",
+    "desc": "When you miss with a melee weapon attack, you can choose to hit instead. You can use this boon threes times afterwards you can't use it again until you finish a short rest.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 2,
+    "name": "Boon of the Anchored Will",
+    "desc": "When you would be forced to move or teleported against your will, you can choose to remain in place instead. Usable three times per short rest.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 3,
+    "name": "Boon of Fate",
+    "desc": "When another creature that you can see within 60 feet of you makes an ability check, an attack roll, or a saving throw , you can roll a d10 and apply the result as a bonus or penalty to the roll. Once you use this boon, you can't use it again until you finish a short rest.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 4,
+    "name": "Boon of Fortitude",
+    "desc": "Your hit point maximum increases by 40.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 5,
+    "name": "Boon of High Magic",
+    "desc": "You gain one 9th-level spell slot, provided that you already have one. If you do not have a 9th level spell lot you gain a spell slot equal to one + your highest level spell slot. This grows with you until you reach 9th level spell slots.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 6,
+    "name": "Boon of Immortality",
+    "desc": "You stop aging. You are immune to any effect that would age you, and you can't die from old age.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 7,
+    "name": "Boon of Invincibility",
+    "desc": "When you take damage from any source, you can reduce that damage to 0. Once you use this boon, you can't use it again until you finish a short rest.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 8,
+    "name": "Boon of Irresistible Offense",
+    "desc": "You can bypass the damage resistances of any creature.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 9,
+    "name": "Boon of Luck",
+    "desc": "You can add a d10 roll to any ability check, attack roll, or saving throw you make. Once you use this boon, you can't use it again until you finish a short rest.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 10,
+    "name": "Boon of Magic Immunity",
+    "desc": "You gain magic immunity up to level 3. When you take this boon additional times your magic immunity level increases by two, up to a max of 7th level magic immunity.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 11,
+    "name": "Boon of Magic Resistance",
+    "desc": "You have advantage on saving throws against spells and other magical effects.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 12,
+    "name": "Boon of Peerless Aim",
+    "desc": "You can give yourself a +20 bonus to a ranged attack roll you make. You can use this boon threes times afterwards you can't use it again until you finish a short rest.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 13,
+    "name": "Boon of Perfect Health",
+    "desc": "You are immune to all diseases and poisons, and you have advantage on Constitution saving throws.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 14,
+    "name": "Boon of Planar Travel",
+    "desc": "When you gain this boon, choose a plane of existence other than the Material Plane. You can now use an action to cast the plane shift spell (no spell slot or components required), targeting yourself only, and travel to the chosen plane, or from that plane back to the Material Plane. Once you use this boon, you can't use it again until you finish a short rest.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 15,
+    "name": "Boon of Quick Casting",
+    "pre": "No prerequisite",
+    "desc": "Choose one of your spells of 1st through 3rd level that has a casting time of 1 action. That spell's casting time is now 1 bonus action for you.",
+    "lvl": 1
+  },
+  {
+    "id": 16,
+    "name": "Boon of Recovery",
+    "desc": "You can use a bonus action to regain a number of hit points equal to half your hit point maximum. Once you use this boon, you can't use it again until you finish a long rest.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 17,
+    "name": "Boon of Resilience",
+    "desc": "You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons. (Some powerful creatures natural weapons - ie claws and teeth are still considered magical)",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 18,
+    "name": "Boon of Resistance",
+    "desc": "Once per long rest, when you fail a saving throw you may choose to succeed instead.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 19,
+    "name": "Boon of Skill Proficiency",
+    "desc": "You gain proficiency in all skills.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 20,
+    "name": "Boon of Speed",
+    "desc": "Your walking speed increases by 30 feet. In addition, you can use a bonus action to take the Dash or Disengage action. Once you do so, you can't do so again until you finish a short rest.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 21,
+    "name": "Boon of Spell Mastery",
+    "desc": "Choose one 1st-level sorcerer, warlock, or wizard spell that you can cast. You can now cast that spell at its lowest level without expending a spell slot.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 22,
+    "name": "Boon of Spell Recall",
+    "desc": "You can cast any spell you know or have prepared without expending a spell slot. Once you do so, you cant use this boon again until you finish a long rest.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 23,
+    "name": "Boon of the Fire Soul",
+    "desc": "You have immunity to fire damage. You can also cast burning hands (save DC 15) at will, without using a spell slot or any components.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 24,
+    "name": "Boon of the Night Spirit",
+    "desc": "While completely in an area of dim light or darkness, you can become invisible as an action. You remain invisible until you take an action or a reaction.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 25,
+    "name": "Boon of the Stormborn",
+    "desc": "You have immunity to lightning and thunder damage. You can also cast thunderwave (save DC 15) at will, without using a spell slot or any components.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 26,
+    "name": "Boon of the Unfettered",
+    "desc": "You have advantage on ability checks made to resist being grappled. In addition, you can use an action to automatically escape a grapple or free yourself of restraints of any kind.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 27,
+    "name": "Boon of Truesight",
+    "desc": "You have truesight out to a range of 60 feet.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 28,
+    "name": "Boon of Undetectability",
+    "desc": "You gain a +10 bonus to Dexterity (Stealth) checks, and you can't be detected or targeted by divination magic, including scrying sensors.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 29,
+    "name": "Boon of Artifact Affinity",
+    "desc": "Pick 1 item that you are attuned to. That item becomes part of your demigod persona and merges with your physical form. You now gain the benefits of this item without needing to hold it and no longer use an attunement slot for it. You can summon or conjure the item to your hand as an action, cause it to merge back into your form or become invisible. Even if it is not summoned or held at the time when you take an action you can act as if you are using the item rather than whatever you might be wielding, as if the item is an extension of your body. Some restrictions may apply based on the item, and your physical form would change based on the item. As your legend spreads you'll be heavily associated with this item (think Zeus and his lightning bolts) This boon cannot be picked more than once.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 30,
+    "name": "Boon of Energy Investment",
+    "desc": "You attune to the elemental energies of the universe. When casting a spell that deals fire, thunder, lightning or cold damage you can change its damage type to another of those types. In addition when taking this boon you gain immunity to one of those types. Your body takes on properties that correspond thematically to that element, altering your appearance. Additionally any energy around you seems more volatile, fires crackles louder and brighter, wind blows more fiercely, etc.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 31,
+    "name": "Boon of Resurrection",
+    "desc": "You gain advantage on any spell casting abilities checks to return a soul to life",
+    "pre": "You must have died at some point and been brought back",
+    "title": "",
+    "lvl": 1
+  },
+  {
+    "id": 32,
+    "name": "Boon of Titans Grip",
+    "desc": "You can wield a heavy or 2-handed weapon in 1 hand and use two-weapon fighting with such weapons.",
+    "pre": "You must at least have a Strength of 15",
+    "title": "",
+    "lvl": 1
+  },
+  {
+    "id": 33,
+    "name": "Boon of Divine Size",
+    "desc": "You physical size grows to match your emerging power. You grow in size becoming 1 size larger",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 34,
+    "name": "Beloved of Valarian",
+    "pre": "You must be female, a follower of Valarian the unicorn god",
+    "desc": "You are bound to the service of a unicorn mount you can summon as an action. If the unicorn dies can be summoned again after 1 day",
+    "title": "",
+    "lvl": 1
+  },
+  {
+    "id": 35,
+    "name": "Wyrm Knight",
+    "pre": "Must be a martial class, and have a horde worthy of a dragon at least 100,000g in gold, gems, jewels, art etc.",
+    "desc": "You gain a +1 bonus to your AC and you gain the breath weapon of a young dragon of your choice. Once the breath weapon is used you cannot use it again until you take a long rest.",
+    "title": "Wyrm Knight/Dragon Knight",
+    "lvl": 1
+  },
+  {
+    "id": 36,
+    "name": "Scion of Arkhosia",
+    "pre": "Must be a Dragonborn",
+    "desc": "You can pick a 2nd Draconic ancestry",
+    "title": "",
+    "lvl": 1
+  },
+  {
+    "id": 37,
+    "name": "Dungeon Lord",
+    "desc": "Your building and horde are so amazing word starts to spread, creatures attuned to your alignment will come to serve and live in the new dungeon, you gain lair actions inside and regional effects (determined by your alignment, the building location etc), and teams of enemies not of your alignment will come to attack your dungeon, possibly bringing you even more treasure and fame. As your dungeon kills more and more enemies its fame grows, perhaps even more than the most famous of dungeons like the Tomb of Horrors",
+    "pre": "Must own a building and have a horde of over 100,000g there",
+    "title": "Lord of ______",
+    "lvl": 1
+  },
+  {
+    "id": 38,
+    "name": "Legendary General",
+    "desc": "Once a day you can give a invigorating shout to restore one ability for an ally within 60 ft that would normally be recharged by a short rest. You also gain advantage on ability checks involving leadership or gaining a title",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 39,
+    "name": "Skylord",
+    "desc": "As a bonus action you can summon a spectral celestial giant eagle, celestial giant owl, or celestial pegasus which serve as a mount until slain or dismissed. While flying on your mount if you move at least 60ft in a straight line towards your target you deal an extra 2d6 damage A skylord's mount has +10 to AC, weapon dice is 1 larger (d6s become d8s, etc), has +10 speed, is immune to hold, paralysis, sleep, charms, and compulsions. As a bonus action you can activate Lightning Bolt, turning your form and your mounts form into lightning, you can then move 100 ft in a straight line, through creatures but not solid objects. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.",
+    "pre": "Elf or half-elf",
+    "title": "Skylord",
+    "lvl": 1
+  },
+  {
+    "id": 40,
+    "name": "Hands of the King",
+    "desc": "Once a day as an action you can touch a creature. The target magically restores 30 hit points and has lesser restoration cast on it. Taking this feat again heals an extra 30 hit points and casts greater restoration on the target. Taking this feat a 3rd time heals an extra 30 hit points and casts Raise Dead with no need of components if the target is dead.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 41,
+    "name": "Boon of the Ravager",
+    "desc": "At the very start of your turn, even if you cannot act but as long as you have 1 hit point or more and are raging, you are cured of 1 condition of your choice currently afflicting you and gain 10 hit points",
+    "title": "Ravager",
+    "pre": "Barbarian lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 42,
+    "name": "Boon of the Truespeaker",
+    "desc": "Your Bardic Inspiration now affects all allies within a 15 ft radius circle within 60 ft. You also learn two additional spells from any class",
+    "title": "Truespeaker",
+    "pre": "Bard lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 43,
+    "name": "Boon of the Song of Fate",
+    "desc": "You have learned to open your ears to play with the song of fate itself. Any of Mesgralli's Bardic Inspiration dice can be treated as having rolled their maximum, if they choose",
+    "title": "Mesgralli",
+    "pre": "Bard lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 44,
+    "name": "Boon of the Rigorous Rite",
+    "desc": "Your mastery over the Crimson Rite has fortified your body's resilience to the very energies you harness. Whenever you have an active Crimson Rite on a weapon, you gain immunity to the damage type associated with the active Rite. Also, once per short rest, you may activate a Crimson Rite as a free action.",
+    "title": "Paragon of Order",
+    "pre": "Blood Hunter lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 45,
+    "name": "Boon of the Sanguine Curse",
+    "desc": "You no longer take damage when amplifying a blood curse. Instead you heal, equal to 2 times the roll of your hemocraft die. Also, all Blood Curses have their range increased to 90ft",
+    "title": "Damned",
+    "pre": "Blood Hunter lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 46,
+    "name": "Boon of the Ascendant",
+    "desc": "Your spell casting becomes divinely endowed. Any 4th level domain spell you cast using a 4th level spell slot or below is treated as if it was cast as 4th level. As well when casting a spell requiring concentration you can expend another spell slot to cause the spell to persist without concentration",
+    "title": "Ascendant",
+    "pre": "Cleric lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 47,
+    "name": "Boon of the Emergent Primordial",
+    "desc": "You start to merge further into your connection to a specific elemental plane. You gain the following traits depending on which elemental plane you choose:\n**Air Elemental** - Fly speed of 90 ft and Air Form trait\n**Earth Elemental** - Burrow speed of 30 ft and Earth Glide and Siege Monster traits\n**Fire Elemental** - Fire form and Illumination traits\n**Water Elemental** - Swim speed of 90 ft and Water Form trait\nYou also gain resistance to your choice of element and add 1d6 of that element to any physical attacks you make.\nYou gain these traits regardless of what form you are Wild Shaped into.",
+    "title": "Emergent Primordial",
+    "pre": "Druid lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 48,
+    "name": "Boon of the Leviathan",
+    "desc": "You gain the ability to turn into more powerful and larger creatures. The Max. CR of a creature you can turn into is increased by 5.",
+    "title": "The Leviathan",
+    "pre": "Druid lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 49,
+    "name": "Boon of the Focused Shifter",
+    "desc": "You gain the ability to turn into 1 type of creatures besides just beasts\n Choose between:\n**Abberations**\n**Giants**\n**Monstrosities**\n**Oozes**\n**Plants**\n**Undead**",
+    "title": "",
+    "pre": "Druid lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 50,
+    "name": "Boon of the Dreadnought",
+    "desc": "You gain a +3 bonus to your AC",
+    "title": "Dreadnought",
+    "pre": "Fighter lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 51,
+    "name": "Boon of the Scale Breaker",
+    "desc": "You gain advantage on saving throws against dragon fear and breath weapons, and you deal an extra dice of damage anytime you strike a dragon with a melee weapon attack",
+    "title": "Scale Breaker",
+    "pre": "Fighter lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 52,
+    "name": "Boon of the Battle Cry",
+    "desc": "You can give a shout that invigorates each ally within 40 ft. These allies gain damage resistance to all damage, they can dash as a bonus action and they cannot be stopped or slowed by any effects. This cry lasts until the end of your next turn.",
+    "title": "Battle Cryer",
+    "pre": "Fighter lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 53,
+    "name": "Boon of the Enlightened Fist",
+    "desc": "Whenever you spend a Ki point your fists and monk weapons deal an extra 1d10 damage until the start of your next turn (this can stack if you spend more than 1 Ki point)",
+    "title": "Enlightened Fist",
+    "pre": "Monk lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 54,
+    "name": "Boon of the One Punch",
+    "desc": "When hit a creature with an attack you may spend any amount of remaining movement and deal an extra d6 of damage per 10 feet of movement spent.",
+    "title": "One Punch",
+    "pre": "Monk lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 55,
+    "name": "Boon of the Crusader",
+    "desc": "You gain the ability to sanctify an action once per round\n**Sanctified Attack Action** - When taking the attack action you attack 3 times\n**Sanctified Channel Divinity** - When you use your Channel Divinity feature you also regain two 5th level spell slots\n**Sanctified Lay On Hands** - You restore x2 as many hit points, the ability has a range of 120 ft and this effect cannot be reduced or prevented by any effect",
+    "title": "Crusader",
+    "pre": "Paladin lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 56,
+    "name": "Boon of the Slayer",
+    "desc": "When you choose this boon choose a creature type. You become the slayer of those creatures. When striking a creature of your chosen type with a smite you do an extra d8 of damage (Capped to 6d8) to that creature, you also damage all other creatures of that type within 10 ft of the target for 1/2 of the total damage of the strike.",
+    "title": "_____slayer",
+    "pre": "Paladin lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 57,
+    "name": "Boon of Multi-shot",
+    "desc": "You can now maintain concentration on up to 3 instances of Hunters Mark (still have to be cast separately) When you make a ranged weapon attack against 1 of the creatures you have marked you also make an attack against all other creatures you have marked as long as they are in range and you are able to see them",
+    "title": "Slayer",
+    "pre": "Ranger lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 58,
+    "name": "Boon of the Arcane Archer",
+    "desc": "When making a ranged weapon attack you can select an element (fire, cold, acid, necrotic, lightning, force) and all damage you do to deals that specific elemental damage instead and deals an extra 1d6 damage",
+    "title": "Arcane Archer",
+    "pre": "Ranger lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 59,
+    "name": "Boon of the Beast Tamer",
+    "desc": "Your beast companion turns into a more powerful and larger creatures. The Max. CR of a beast you can have as a companion is increased by 5. Your beast companion also can no longer be slowed by difficult terrain (even magical terrain) and has advantage on saving throws against environmental effects.",
+    "title": "Tamer of Beasts",
+    "pre": "Ranger lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 60,
+    "name": "Boon of the Magical Beast",
+    "desc": "Your beast companion can equip items that they could reasonably use and wield, it has 3 attunement slots",
+    "title": "Magic Beast Tamer",
+    "pre": "Ranger lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 61,
+    "name": "Boon of the Phase Arrow",
+    "desc": "Once per minute you can shoot an arrow through any magic barrier or cover or even through solid structures. If you know a creature is there but cannot see it you still get to -5 to your attack roll. Hitting a creature that cannot see you shooting deals sneak attack damage.",
+    "title": "Phase Arrow",
+    "pre": "Rogue lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 62,
+    "name": "Boon of the Blade",
+    "desc": "Your sneak attack now deals 10d10 damage",
+    "title": "Blade",
+    "pre": "Rogue lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 63,
+    "name": "Boon of the Elemental Lord",
+    "desc": "You further infuse yourself to a specific elemental power\n\n**Title Gained: Stormlord** When you cast a spell that deals lightning or thunder damage you cast it as if it was 4 levels higher\n**Title Gained: Stonelord** When you cast a spell that deals bludgeoning damage you cast it as if it was 4 levels higher\n**Title Gained: Firelord** When you cast a spell that deals fire damage you cast it as if it was 4 levels higher\n**Title Gained: Oceanlord** When you cast a spell that deals cold damage you cast it as if it was 4 levels higher\n**Title Gained: Salvelord** When you cast a spell that heals a creature you cast it as if it was 4 levels higher",
+    "title": "____lord",
+    "pre": "Sorcerer lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 64,
+    "name": "Boon of the Demonoligist",
+    "desc": "Once a day as an action you can attempt to summon a demon. A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for l minute or its summoner dies, or until 1ts summoner dismisses it as an action. You can summon 1d4 vrocks, ld2 hezrous or 1 glabrezus",
+    "title": "Demonoligist",
+    "pre": "Warlock lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 65,
+    "name": "Boon of the Overlord",
+    "desc": "You can now use your Eldritch Master class ability as bonus action rather than it taking 1 minute",
+    "title": "Overlord",
+    "pre": "Warlock lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 66,
+    "name": "Boon of the Master Blaster",
+    "desc": "Your Eldritch Blast becomes even more empowered. Creatures can not benefit from magic immunity, spells that would increase its ac, spells that altar your attack roll, or from damage immunity/resistances against your Eldritch Blasts.",
+    "title": "Master Blaster",
+    "pre": "Warlock lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 67,
+    "name": "Boon of the Ward Breaker",
+    "desc": "As an action you can attempt to lessen the magical immunity of a target creature. Make an arcana check, the DC equals 10+(3xCurrent level of Magical Immunity). On a success you remove a level of magical immunity. If you are successful by 10 or more remove an additional level of magical immunity. If you roll a natual 20 2 level of magical immunity are removed regardless of the total roll.",
+    "title": "Ward Breaker",
+    "pre": "Wizard lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 68,
+    "name": "Boon of the Arcane Savant",
+    "desc": "When making an intelligence check/skill roll you can treat a roll of 9 or lower as a 10 You also gain additional 9th level spell slot.",
+    "title": "Arcane Savant",
+    "pre": "Wizard lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 69,
+    "name": "Boon of the Archmage",
+    "desc": "When casting a 6th level spell or lower with a casting time of 1 action you may simultaneously cast a 1st level spell with a casting time of 1 action. You also gain another 9th level spell slot",
+    "title": "Archmage",
+    "pre": "Wizard lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 70,
+    "name": "Boon of the Battle Artificer",
+    "desc": "You gain 1 additional attunement slot. This boon cannot be picked more than once but does stack with the Boon of Artifact Affinity.",
+    "title": "Battle Artificer",
+    "pre": "Artificer lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 71,
+    "name": "Boon of the Master of the Forge",
+    "desc": "Your talents with a forge and magic items are legendary. During a short rest you can work to temporarily improve 1 non-magical item, turning it into a +3 weapon, armor or shield until your next short rest. You can also make magic items x2 as fast as normal.",
+    "title": "Master of the Forge",
+    "pre": "Artificer lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 72,
+    "name": "Boon of Immortality",
+    "desc": "Your soul is a priceless treasure, you dont age (even from magical sources) and if you reach 0 hp you can spend your reaction to spend hit dice as if finishing a short rest.",
+    "title": "______ The Immortal",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 73,
+    "name": "Boon of Extraordinary Concentration",
+    "desc": "You maintain concentration through unconscious or incapacitated conditions, and even through death. You don't need to make concentration checks when taking under 50 damage.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 74,
+    "name": "Boon of Empowered Offense",
+    "desc": "When casting a spell that targets a creature with magic immunity, you can empower your spell, bypassing their magical immunity. Creatures targeted by an empowered spell have advantage on saves against that spell. Additionally empowered spells have disadvantage on attack rolls.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 75,
+    "name": "Boon of the Death Bringer",
+    "desc": "If you physically strike a creature of CR 10 or less it instantly dies. So potent are you killing abilities that the afterlife fills with the souls of your victims, making you legend in those planes",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 76,
+    "name": "Boon of the Arcane Master",
+    "desc": "Your spell save DC becomes 12 + prof + spell casting modifier",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 77,
+    "name": "Boon of the Spell Lord",
+    "desc": "Your spells against any creature of CR 10 or less automatically succeed and deal maximum damage. Your spell attacks critical hit on a 18-20. All creatures automatically assume your the most powerful spell caster in the room.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 78,
+    "name": "Boon of Perfect Health",
+    "desc": "Your body is in perfect health. Your maximum HP is as if you rolled the maximum on each hit dice roll when leveling up.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 79,
+    "name": "Boon of the Paragon",
+    "desc": "You increase your proficiency by 1 and become a perfect specimen of your species, with perfect body features for your species. If you have a child it is born with this Boon.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 80,
+    "name": "Boon of the Spell Slinger",
+    "desc": "You can cast cantrips as bonus actions and you can use your reaction twice in a turn to cast a spell with a casting time of a reaction.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 81,
+    "name": "Boon of Even Higher Magic",
+    "desc": "You gain one 10th-level spell slot.",
+    "title": "",
+    "pre": "Have a 9th-level spell slot",
+    "lvl": 3
+  },
+  {
+    "id": 82,
+    "name": "Boon of Highest Magic",
+    "desc": "You gain one 11th-level spell slot.",
+    "title": "",
+    "pre": "Have a 10th-level spell slot",
+    "lvl": 3
+  },
+  {
+    "id": 83,
+    "name": "Boon of 10th Level Magic",
+    "desc": "You can pick one 10th level spell which you learn to cast.",
+    "title": "",
+    "pre": "Have a 10th-level spell slot",
+    "lvl": 3
+  },
+  {
+    "id": 84,
+    "name": "Boon of 11th Level Magic",
+    "desc": "You can pick one 11th level spell which you learn to cast.",
+    "title": "",
+    "pre": "Have a 11th-level spell slot",
+    "lvl": 3
+  },
+  {
+    "id": 85,
+    "name": "Boon of Lesser Boons",
+    "desc": "You gain two 1st level Boons.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 86,
+    "name": "Boon of Greater Artifact Affinity",
+    "desc": "Pick 1 item that you are attuned to. That item becomes part of your demigod persona and merges with your physical form. You now gain the benefits of this item without needing to hold it and no longer use an attunement slot for it. You can summon or conjure the item to your hand as an action, cause it to merge back into your form or become invisible. Even if it is not summoned or held at the time when you take an action you can act as if you are using the item rather than whatever you might be wielding, as if the item is an extension of your body. Some restrictions may apply based on the item, and your physical form would change based on the item. As your legend spreads you'll be heavily associated with this item (think Zeus and his lightning bolts) This boon cannot be picked more than once.",
+    "title": "",
+    "pre": "Have the Boon of Artifact Affinity",
+    "lvl": 3
+  },
+  {
+    "id": 87,
+    "name": "Boon of the Summoner",
+    "desc": "You double the number of creatures you summon from conjuration spells",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 88,
+    "name": "Boon of the Dragon Lord",
+    "desc": "You gain lair actions at a building you own (depending on the type of dragon you are), your breath becomes the adult dragons version, and you gain permanent spectral dragon wings granting you a fly speed of 80 ft. And you gain a legendary resistance, so once per day if you fails a saving throw, you can choose to succeed instead.",
+    "title": "Dragon Lord",
+    "pre": "Be a Wrym Knight",
+    "lvl": 3
+  },
+  {
+    "id": 89,
+    "name": "Talon of Tiamat",
+    "desc": "When using your breath weapon roll a d4, you can also use that many other chromatic dragon breaths at the same time (your choice which kind)",
+    "title": "Talon of Tiamat",
+    "pre": "Be a Wrym Knight of a chromatic dragon",
+    "lvl": 3
+  },
+  {
+    "id": 90,
+    "name": "Mythic Leader",
+    "desc": "Once a day you can give a invigorating shout to restore one ability for an ally within 60 ft that would normally be recharged by a long rest. You can also start recruiting a 1000 personal army from the surrounding area.",
+    "title": "",
+    "pre": "Be a Legendary General",
+    "lvl": 3
+  },
+  {
+    "id": 91,
+    "name": "Boon of Multi-class",
+    "desc": "You gain a level in a class of your choice. This cannot raise a class over 20.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 92,
+    "name": "Boon of Multi-subclass",
+    "desc": "You can pick another subclass from a class you have a subclass selected alread and gain all the benefits and features from that new class as well.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 93,
+    "name": "Boon of Feats",
+    "desc": "You can select 3 feats (still have to pass any requirements to pick those feats)",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 94,
+    "name": "Boon of Greater Speed",
+    "desc": "All your speeds (walking, flying, swimming) increase by 10ft. This includes any ability or spell that normally would have a set speed limit.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 3
+  },
+  {
+    "id": 95,
+    "name": "Boon of Diety Artifact Affinity",
+    "desc": "Pick 2 items that you are attuned to. Those items becomes part of your demigod persona and merges with your physical form. You now gain the benefits of this item without needing to hold it and no longer use an attunement slot for it. You can summon or conjure the item to your hand as an action, cause it to merge back into your form or become invisible. Even if it is not summoned or held at the time when you take an action you can act as if you are using the item rather than whatever you might be wielding, as if the item is an extension of your body. Some restrictions may apply based on the item, and your physical form would change based on the item. As your legend spreads you'll be heavily associated with this item (think Zeus and his lightning bolts) This boon cannot be picked more than once.",
+    "title": "",
+    "pre": "Have the Boon of Greater Artifact Affinity",
+    "lvl": 5
+  },
+  {
+    "id": 96,
+    "name": "Boon of the Rageborn",
+    "desc": "Literally become to angry to die. You become immune to the unconscious condition while raging. While at 0 hp, you make death saving throws at the start of your turns. Success does nothing, but a 20 grants 1 hp as normal. 3 failed attempts and you die. Once per round when making a Charisma, Intelligence or Wisdom saving throw you can instead make a Strength Saving Throw.",
+    "title": "Rageborn",
+    "pre": "Barbarian lvl 9",
+    "class": "Barbarian",
+    "lvl": 4
+  },
+  {
+    "id": 97,
+    "name": "Boon of the All Speaker",
+    "desc": "You can take a class specific boon from any other class",
+    "title": "All Speaker",
+    "pre": "Bard lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 98,
+    "name": "Boon of Inspired Inspiration",
+    "desc": "Your inspiration die becomes a d20",
+    "title": "",
+    "pre": "Bard lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 99,
+    "name": "Boon of the Demigod",
+    "desc": "You begin to receive worship from those followers that revere you as the paragon saint of your deity. You become immortal, no longer aging, or need to sleep, eat or drink. If slain your body and items are reduced to divine essense and reform over a period of 7 days on a plane associated with your divine nature at a location of your choice. Any 5th level domain spell you cast using a 5th level spell slot or below is treated as if it was cast as 5th level. In addition when you fail a saving throw you can use your reaction and a use of Channel Divinity to succeed instead.\nIn a 10 minute ritual you can reach out into the cosmos with your new divine powers. You take temporarily control over the sun, stars and planets and move them along their path in the sky. Your divine powers means this movement does not cause any direct damage, but can alter the weather or time of day. Once used this cannot be done again for 1 week.",
+    "title": "Demigod",
+    "pre": "Cleric lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 100,
+    "name": "Boon of the Primordial",
+    "desc": "You gain immunity to your choice of element and now add 3d6 of that element to any physical attacks you make. When you die you merge into that elemental plane.",
+    "title": "Primordial",
+    "pre": "Druid lvl 9 & Requires the Boon of the Emergent Primordial",
+    "lvl": 4
+  },
+  {
+    "id": 101,
+    "name": "Boon of the Dragonsoul",
+    "desc": "You are able to transform into any young chromatic or metallic dragon",
+    "title": "Dragonsoul",
+    "pre": "Druid lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 102,
+    "name": "Boon of the Greater Dragonsoul",
+    "desc": "You are able to transform into any adult chromatic or metallic dragons, and unique dragons like Dragon Turtles, Sea Dragons, Mithril Dragons, Gem Dragons",
+    "title": "Greater Dragonsoul",
+    "pre": "Druid lvl 9 & Requires the Boon of the Dragonsoul",
+    "lvl": 4
+  },
+  {
+    "id": 103,
+    "name": "Boon of the King/queen of the Wild",
+    "desc": "All beasts are friendly to you, you can speak with them and they will follow your commands",
+    "title": "King/Queen of the Wild",
+    "pre": "Druid lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 104,
+    "name": "Boon of the Greater Battle Cry",
+    "desc": "When you take an Action Surge you also allow all allied to take any extra action on their turn before the start of your next turn",
+    "title": "Greater Battle Cryer",
+    "pre": "Fighter lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 105,
+    "name": "Boon of the Void",
+    "desc": "You gain a flight speed of 100 ft and if you move 100 ft in a straight line at a target your first strike deals an extra 2d10 damage",
+    "title": "One With The Void",
+    "pre": "Monk lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 106,
+    "name": "Boon of the Living Saint",
+    "desc": "All auras you create affect all allies engaged in combat with you if you wish them to",
+    "title": "Living Saint",
+    "pre": "Paladin lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 107,
+    "name": "Richter's Boon",
+    "desc": "Whenever a hostile creature attempts to make a save within 10 feet of you, reduce the rolled value by your charisma modifier",
+    "title": "",
+    "pre": "Paladin lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 108,
+    "name": "Boon of Divine Multi-shot",
+    "desc": "Hunters Mark no longer requires concentration for you, you can have as many marks up as you want and your multi attack will fire on them all as long you can see them and they are in range.",
+    "title": "Rapid Slayer",
+    "pre": "Ranger lvl 9 & Requires the Boon of Multi-shot",
+    "lvl": 4
+  },
+  {
+    "id": 109,
+    "name": "Boon of the Beastlord",
+    "desc": "Removes any restrictions of type of creature that can be a companion and the Max. CR of a creature you can have as a companion is 15",
+    "title": "Beastlord",
+    "pre": "Ranger lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 110,
+    "name": "Boon of the Deadly Blade",
+    "desc": "Once a day you can perform an attack that hits any creatures in your range that you would get sneak attack against, you roll to attack each target, you then roll sneak attack damage and it applies to all targets",
+    "title": "Deadly Blade",
+    "pre": "Rogue lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 111,
+    "name": "Boon of the Artificer Master",
+    "desc": "Your Soul of Artifice ability now allows you to be attuned to 12 magic items at once.",
+    "title": "Artificer Master",
+    "pre": "Artificer lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 112,
+    "name": "Boon of the Arcane Master",
+    "desc": "Choose a 7th level spell or less to master, you can then use any spell slot of 7th level or less to cast this spell as if it was cast at 7th level. You also gain a 10th level spell slot",
+    "title": "Master of the Arcane",
+    "pre": "Wizard lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 113,
+    "name": "Boon of the Grand Tradition",
+    "desc": "Choose a school you have selected as an Arcane Tradition.\nChoose a 1st level spell from this school, you can now cast it as a cantrip.\n**Abjuration**: you gain +1 bonus to saving throws against magic effects\n**Conjuration**: when you summon creatures with a conjuration spell, they all have resistances to one damage type of your choice.\n**Divination**: when you finish a long rest, roll 2 d20s and record the results. Anytime before your next long rest, you can substitute any d20 roll for one of the rolls you made. You can only use each roll once.\n**Enchantment**: The number of targets of your enchantment spells is doubled.\n**Evocation**: If you have a damaging spell that requires a dexterity saving throw, traits such as Indomitable or Evasion do not function for the save\n**Illusion**: If you have an illusion spell that allows you to choose one of multiple illusory effects, you can choose two, instead\n**Necromancy**: If you have a spell that raises creatures from the dead, you can raise 3 more creatures from the dead.\n**Transmutation**: While affected by a transmutation spell of 1st level or higher, you have a bonus to your AC equal to your spellcasting ability modifier.",
+    "title": "Master of the _____ School",
+    "pre": "Wizard lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 114,
+    "name": "Boon of the Dead God Fragment",
+    "desc": "The divine essense grants you +5 to all stats (max 20). You gain advantage on death saving throws and must fail two additional death saving throws to be killed while at 0 hit points.",
+    "title": "The Fragment",
+    "pre": "You must find the remnant of a dead god to absorb & Warlock lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 115,
+    "name": "Boon of the Greater Demonoligist",
+    "desc": "Once a day as an action you can attempt to summon a demon. A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for l minute or its summoner dies, or until 1ts summoner dismisses it as an action. You can summon 1d4 nalfeshnees, 1d2 mariliths, or 1 goristro",
+    "title": "Greater Demonoligist",
+    "pre": "Warlock lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 116,
+    "name": "Boon of the Wild Mage",
+    "desc": "When you cast a spell you can choose to pick a specific wild magic surge effect you want to happen. If prompted to roll on the Wild Magic table this will stack with whatever you roll. You can do this once equal to your charisma bonus, recharging on a long rest.",
+    "title": "Wild Mage",
+    "pre": "Sorcerer lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 117,
+    "name": "Boon of the Archon",
+    "desc": "When you deal damage from a spell roll a d20, on a roll of 11 or higher you deal an extra dice of damage and roll the d20 again. This continues until you roll 10 or under.",
+    "title": "ARCHON",
+    "pre": "Sorcerer lvl 9",
+    "lvl": 4
+  },
+  {
+    "id": 118,
+    "name": "Boon of the Greater Elemental Lord",
+    "desc": "As an action you can attempt to strip a creature within 60 ft of you of its elemental immunity based on the element you chose when you chose the boon of the elemental lord. Roll a Charisma save the DC to change immunity to resist is 40, the DC to change resist to normal damage is 36. the DC to change normal to vulnerable is 40. Lasts until the creature takes a long rest. Failures cause d10000 wild magic surge",
+    "title": "",
+    "pre": "Sorcerer lvl 9 & Boon of the Elemental Lord",
+    "lvl": 4
+  },
+  {
+    "id": 119,
+    "name": "Boon of Greater Boons",
+    "desc": "You gain two 3rd level Boons.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 5
+  },
+  {
+    "id": 120,
+    "name": "Boon of Master Tactician",
+    "desc": "When you have advantage roll 3d20s and take the highest result rather than 2d20s",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 5
+  },
+  {
+    "id": 121,
+    "name": "Boon of 12th Level Magic",
+    "desc": "You can pick one 12th level spell which you learn to cast.",
+    "title": "",
+    "pre": "Have a 12th-level spell slot",
+    "lvl": 5
+  },
+  {
+    "id": 122,
+    "name": "Boon of Divine Magic",
+    "desc": "You gain one 12th-level spell slot.",
+    "title": "",
+    "pre": "Have a 11th-level spell slot",
+    "lvl": 5
+  },
+  {
+    "id": 123,
+    "name": "Boon of Greater Feats",
+    "desc": "You can select 10 feats (still have to pass any requirements to pick those feats)",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 5
+  },
+  {
+    "id": 124,
+    "name": "Boon of Godly Multi-class",
+    "desc": "You gain 5 levels in a class of your choice. This cannot raise a class over 20.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 5
+  },
+  {
+    "id": 125,
+    "name": "Boon of Partial Divinity",
+    "desc": "Increase a single attribute to 30",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 5
+  },
+  {
+    "id": 126,
+    "name": "Critical Spell Caster",
+    "desc": "When you cast a spell that deals damage that causes the targets to make a saving throw, roll a d20. On a 20 the spells damage dice are doubled (on a 1 the spell does not fail).",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 5
+  },
+  {
+    "id": 127,
+    "name": "Critical Weapon Master",
+    "desc": "You gain +1 to your critical hit range (if you should crit on 20 you now crit on a 19-20, if you would crit on an 18-20 you would crit on 17-20) and when you score a critical hit you deal x3 the damaged dice rather than x2",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 5
+  },
+  {
+    "id": 128,
+    "name": "Boon of Phoenix",
+    "desc": "Your inner spirit transforms into the fearsome fire of a phoenix. You can radiate heat and light from your body enough to emit bright light in a 15 foot radius and dim light in an additional 15 foot radius. Your eyes become bright gold and fiery red. You can heat an object you are touching to ignition if it is a material that can be ignited.\nYou gain the following benefits:\nYou absorb fire and radiant damage, being healed for the amount of damage dealt.\nYou are immune to poison damage, along with the charmed, frightened and poisoned conditions.\nYou sprout magnificent gold and fiery red wings.\nThese wings give you a flying speed of 120 feet.\nYou can use a bonus action to make the wings either disappear or appear.\nYou can also make the light surrounding you appear and disappear at will.\nYou are immune to the wet, cold and heat from environmental exposure, can survive incredibly high altitudes, and cannot gain more than four levels of exhaustion.\nIf you should die, your body bursts into flames and becomes ashes.\nIf your ashes are kept together for 1d10 days, you are reborn as if a True Resurrection spell was used.",
+    "title": "The Reborn",
+    "pre": "Must have found a phoenix egg and merged with it",
+    "lvl": 5
+  },
+  {
+    "id": 129,
+    "name": "Boon of Celestial",
+    "desc": "Your soul has become so pure your form has manifested into the form of a celestial.\nYou gain the following benefits: \nYou are resistance to radiant, necrotic and poison damage.\nYou sprout angelic wings that radiate with glory and power. These wings give you a flying speed of 120 feet.\nYour weapon attacks deal an extra 3d8 radiant damage\nHealing Touch (3/Day). As an action you touch another creature. The target magically regains 6d8 + 3 hit points and is freed from any curse, disease, poison, blindness, or deafness",
+    "title": "The Celestial",
+    "pre": "Good alignment",
+    "lvl": 5
+  },
+  {
+    "id": 130,
+    "name": "Boon of Fiend",
+    "desc": "Your soul has become so pure your form has manifested into the form of a fiend.\nYou gain the following benefits:\nYou are resistance to fire and poison damage.\nYou sprout demonic wings that radiate with fear and power. These wings give you a flying speed of 120 feet.\nYour weapon attacks deal an extra 3d8 radiant damage\nHealing Touch (3/Day). As an action you touch another creature. The target magically regains 6d8 + 3 hit points and is freed from any curse, disease, poison, blindness, or deafness",
+    "title": "The Enemy",
+    "pre": "Evil alignment",
+    "lvl": 5
+  },
+  {
+    "id": 131,
+    "name": "Boon of Dimensional Travel",
+    "desc": "As an action, you can cast the misty step spell, without using a spell slot or any components. You can use this boon threes times afterwards you can't use this boon again until you finish a short rest.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 132,
+    "name": "Boon of the Echoing Step",
+    "desc": "Once per short rest, you can briefly phase through obstacles when you Dash. For that movement, you ignore difficult terrain and can pass through creatures as if they were difficult terrain, dealing force damage equal to your proficiency bonus to each creature you pass through.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 133,
+    "name": "Boon of Iron Grasp",
+    "desc": "Your grip is unbreakable. You add your Strength and additional time when determining the outcome of your grapples, and creatures you grapple are also restrained until they escape.",
+    "title": "",
+    "pre": "No prerequisite",
+    "lvl": 1
+  },
+  {
+    "id": 134,
+    "name": "Boon of the Soul Shephard",
+    "desc": "When you cast a spell that restores a creature to life (revivify, raise dead, etc.), you do not need material components worth less than 1,000 gp. Once per long rest, when you touch a creature that has died within the last minute, it returns to life at 1 hit point without expending a spell slot.",
+    "title": "",
+    "pre": "You must have died at some point and been brought back",
+    "lvl": 1
+  },
+  {
+    "id": 135,
+    "name": "Boon of the Stalwart Mind",
+    "desc": "You have immunity to psychic damage. You can alsocast wrathful smite (save DC 15) at will, without using aspell slot or any components.",
+    "title": "",
+    "pre": "",
+    "lvl": 1
+  },
+  {
+    "id": 136,
+    "name": "Boon of Swift Strike",
+    "desc": "When you take the Attack action, you may make oneadditional weapon attack as part of that action.",
+    "title": "",
+    "pre": "",
+    "lvl": 1
+  },
+  {
+    "id": 137,
+    "name": "Boon of the Watcher",
+    "desc": "You gain proficiency in Perception and Insight, orexpertise if you already had proficiency. In addition, youcan’t be surprised while conscious.",
+    "title": "",
+    "pre": "",
+    "lvl": 1
+  },
+  {
+    "id": 138,
+    "name": "Boon of the Dreamveil",
+    "desc": "As a bonus action, you can blur your form in phantasmal echoes. Until the start of your next turn, attack rolls against you have disadvantage.",
+    "title": "",
+    "pre": "",
+    "lvl": 1
+  },
+  {
+    "id": 139,
+    "name": "Boon of the Sacred Bulwark",
+    "desc": "Creatures within your Aura of Protection gain a bonusto their AC equal to your Charisma Modifier.Additionally, when you use Lay on Hands, the healedcreature gains resistance to all damage until the start ofyour next turn.",
+    "title": "Sacred Bulwark",
+    "pre": "Paladin lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 140,
+    "name": "Boon of Improved Strikes",
+    "desc": "The die cost for your Cunning Strike options isreduced by an amount equal to half your proficiencybonus, rounded up, to a minimum of 1 die. If a Cunning Strike effect requires a saving throw, thetarget creature cannot benefit from having advantage onthe saving throw.",
+    "title": "Striker",
+    "pre": "Rogue lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 141,
+    "name": "Boon of the Brutal Killer",
+    "desc": "Whenever using your Brutal Strike feature you gainthe following features: <li>Your crit range expands by one.</li><li>When you crit against a creature you may forgorolling damage die and use max damage instead.</li><li>When you crit against a creature you may apply anynumber of Brutal Stirke effects.</li>",
+    "title": "Brutalist",
+    "pre": "Barbarian lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 142,
+    "name": "Boon of the Juggernaut",
+    "desc": "While raging, you gain immunity to bludgeoning,piercing, and slashing damage from nonmagicalsources. In addition, when you enter a rage, you gaintemporary hit points equal to twice your level.",
+    "title": "Juggernaut",
+    "pre": "Barbarian lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 143,
+    "name": "Boon of the Bloodfury",
+    "desc": "Each time you take damage while raging, you gain astacking +1 bonus to attack rolls and damage rolls untilthe end of your rage (max +5). If you end your turnwithout attacking on your turn, you take damage equalto 5 times this bonus.",
+    "title": "Bloodfury",
+    "pre": "Barbarian lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 144,
+    "name": "Bboon of the Unbreakable",
+    "desc": "Your song inspires the mind, fortifying it to nearimpenetrable status. Creatures that have one of yourBardic Inspiration die can not be charmed, frighted,stunned, or paralyzed.",
+    "title": "Unbreakable",
+    "pre": "Bard lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 145,
+    "name": "Boon of the Eternal Echo",
+    "desc": "Once per short rest, when you cast a spell with verbalcomponents, it resonates beyond you. One ally within30 feet canuse their reaction to immediately cast thesame spell at its lowest level without expending a spellslot or using components.",
+    "title": "Echoheart",
+    "pre": "Bard lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 146,
+    "name": "Boon of the Jester’s Mockery",
+    "desc": "When you use Vicious Mockery, you may target twoadditional creatures instead of one. Once per long rest,you may force all hostile creatures within 30 feet tomake a Wisdom saving throw or fall prone inuncontrollable laughter as though affected by HideousLaughter until the end of your next turn.",
+    "title": "Jester",
+    "pre": "Bard lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 147,
+    "name": "Boon of the Lover’s Charm",
+    "desc": "Your gaze carries irresistible allure. You can castcharm person at will without expending a spell slot.Once per short rest, you may cast charm monster.",
+    "title": "Enchanter",
+    "pre": "Bard lvl 3",
+    "lvl": 2
+  }
+]
