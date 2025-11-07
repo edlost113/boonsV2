@@ -8,7 +8,7 @@
       "lvl": 1
     },
     {
-      "id": 2,
+      "id": 132,
       "name": "BOON OF DIMENSIONAL TRAVEL",
       "desc": "As an action, you can cast the misty step spell, without using a spell slot or any components. You can use this boon threes times afterwards you can't use this boon again until you finish a short rest.",
       "title": "",
@@ -16,7 +16,7 @@
       "lvl": 1
     },
     {
-      "id": 2,
+      "id": 131,
       "name": "BOON OF THE ECHOING STEP",
       "desc": "Once per short rest, you can briefly phase through obstacles when you Dash. For that movement, you ignore difficult terrain and can pass through creatures as if they were difficult terrain, dealing force damage equal to your proficiency bonus to each creature you pass through.",
       "title": "",

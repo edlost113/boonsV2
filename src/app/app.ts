@@ -31,6 +31,7 @@ export class App implements OnInit {
   protected readonly title = signal('angular-boons');
   boons = signal<Boon[]>([]);
   searchTerm = signal<string>('');
+  pinnedBoons = signal<Set<number>>(new Set());
   
   // Computed signal to filter boons based on search term
   filteredBoons = computed(() => {
@@ -47,13 +48,27 @@ export class App implements OnInit {
       boon.pre.toLowerCase().includes(search)
     );
   });
+
+  // Computed signal for pinned boons
+  pinnedBoonsData = computed(() => {
+    const pinnedIds = this.pinnedBoons();
+    return this.boons().filter(boon => pinnedIds.has(boon.id));
+  });
+
+  // Computed signal for total cost of pinned boons
+  pinnedTotalCost = computed(() => {
+    return this.pinnedBoonsData().reduce((total, boon) => total + boon.lvl, 0);
+  });
   
   // Computed signal to group filtered boons by level and then by prerequisite
   groupedBoons = computed(() => {
     const boons = this.filteredBoons();
+    const pinnedIds = this.pinnedBoons();
+    // Filter out pinned boons from the main grid
+    const unpinnedBoons = boons.filter(boon => !pinnedIds.has(boon.id));
     const grouped: { [level: number]: { [prerequisite: string]: Boon[] } } = {};
     
-    boons.forEach(boon => {
+    unpinnedBoons.forEach(boon => {
       if (!grouped[boon.lvl]) {
         grouped[boon.lvl] = {};
       }
@@ -94,6 +109,24 @@ export class App implements OnInit {
 
   onSearchChange(value: string) {
     this.searchTerm.set(value);
+  }
+
+  togglePin(boonId: number) {
+    const currentPinned = new Set(this.pinnedBoons());
+    if (currentPinned.has(boonId)) {
+      currentPinned.delete(boonId);
+    } else {
+      currentPinned.add(boonId);
+    }
+    this.pinnedBoons.set(currentPinned);
+  }
+
+  isPinned(boonId: number): boolean {
+    return this.pinnedBoons().has(boonId);
+  }
+
+  clearAllPins() {
+    this.pinnedBoons.set(new Set());
   }
 
   private loadBoons() {

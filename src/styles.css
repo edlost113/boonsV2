@@ -1,4 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* Light mode (default) */
+html, body { 
+  height: 100%; 
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  /* Force Material Design cards to have dark mode styling */
+  .mat-mdc-card {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 1px solid #404040 !important;
+  }
+  
+  .mat-mdc-card-header .mat-mdc-card-title {
+    color: #ffffff !important;
+  }
+  
+  .mat-mdc-card-header .mat-mdc-card-subtitle {
+    color: #d32f2f !important;
+  }
+  
+  .mat-mdc-card-content {
+    color: #ffffff !important;
+  }
+  
+  .mat-mdc-card-content p {
+    color: #ffffff !important;
+  }
+}
