@@ -49,6 +49,21 @@
   min-height: 100vh;
 }
 
+.intro-text {
+  margin-bottom: 32px;
+  padding: 20px;
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+  border-left: 4px solid #1976d2;
+}
+
+.intro-text p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--text-primary);
+  font-size: 1.1em;
+}
+
 .search-container {
   margin-bottom: 24px;
   display: flex;
