@@ -130,7 +130,7 @@ export class App implements OnInit {
   }
 
   private loadBoons() {
-    this.http.get<Boon[]>('/assets/boons.json').subscribe({
+    this.http.get<Boon[]>('assets/boons.json').subscribe({
       next: (boonsData) => {
         this.boons.set(boonsData);
         console.log('Loaded boons:', boonsData.length);
