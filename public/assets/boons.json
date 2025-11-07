@@ -1110,5 +1110,13 @@
       "title": "Sacred Bulwark",
       "pre": "Paladin lvl 3",
       "lvl": 1
+    },
+    {
+      "id": 140,
+      "name": "Boon of Improved Strikes",
+      "desc": "The die cost for your Cunning Strike options isreduced by an amount equal to half your proficiencybonus, rounded up, to a minimum of 1 die. If a Cunning Strike effect requires a saving throw, thetarget creature cannot benefit from having advantage onthe saving throw.",
+      "title": "Striker",
+      "pre": "Rogue lvl 3",
+      "lvl": 1
     }
   ]
