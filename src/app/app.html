@@ -49,11 +49,11 @@
           </div>
         </mat-card-content>
         <mat-card-actions>
-          <button mat-raised-button color="primary" (click)="togglePin(boon.id)">
-            PIN AGAIN
+          <button mat-icon-button color="primary" (click)="togglePin(boon.id)">
+            <mat-icon>add</mat-icon>
           </button>
-          <button mat-raised-button color="accent" (click)="unpinBoon(boon.id)">
-            UNPIN ONE
+          <button mat-icon-button color="accent" (click)="unpinBoon(boon.id)">
+            <mat-icon>remove</mat-icon>
           </button>
         </mat-card-actions>
       </mat-card>
@@ -84,10 +84,10 @@
             </div>
           </mat-card-content>
           <mat-card-actions>
-            <button mat-raised-button 
+            <button mat-icon-button 
                     [color]="isPinned(boon.id) ? 'accent' : 'primary'" 
                     (click)="togglePin(boon.id)">
-              {{ isPinned(boon.id) ? 'UNPIN' : 'PIN' }}
+              <mat-icon>{{ isPinned(boon.id) ? 'remove' : 'push_pin' }}</mat-icon>
             </button>
           </mat-card-actions>
         </mat-card>

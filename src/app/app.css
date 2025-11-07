@@ -168,9 +168,8 @@
   filter: drop-shadow(0 2px 4px rgba(255, 152, 0, 0.2));
 }
 
-.boon-count {
-  background-color: var(--border-warning);
-  color: white;
+.boon-count {/* Darker orange for better contrast in light mode */
+  color: #e65100;
   padding: 2px 8px;
   border-radius: 12px;
   font-size: 0.8em;
@@ -295,6 +294,28 @@
     color: #81c784 !important;
     border-left-color: #81c784 !important;
   }
+  
+  /* Dark mode boon count styling */
+  .boon-count {
+    background-color: #ff9800 !important; /* Brighter orange for dark mode */
+    color: #000000 !important; /* Black text for better contrast on bright orange */
+  }
+}
+
+/* Card positioning styles */
+mat-card {
+  position: relative;
+  padding-bottom: 60px; /* Make room for the floating action buttons */
+}
+
+mat-card-actions {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 4px;
 }
 
 /* Print-specific styles to prevent page breaks inside cards */
