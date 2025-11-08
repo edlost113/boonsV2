@@ -300,6 +300,57 @@
     background-color: #ff9800 !important; /* Brighter orange for dark mode */
     color: #000000 !important; /* Black text for better contrast on bright orange */
   }
+  
+  /* Dark mode expansion panel styling */
+  .level-group mat-expansion-panel {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid #404040 !important;
+  }
+  
+  .level-group mat-expansion-panel-header {
+    background-color: #2d2d2d !important;
+  }
+  
+  .level-group mat-expansion-panel-header .mat-expansion-panel-header-title h2.level-header {
+    color: #64b5f6 !important;
+  }
+}
+
+/* Expansion panel styles */
+.level-group mat-accordion {
+  margin-bottom: 32px;
+}
+
+.level-group mat-expansion-panel {
+  box-shadow: var(--shadow-card);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.level-group mat-expansion-panel-header {
+  background-color: var(--bg-secondary);
+  padding: 16px 24px;
+}
+
+.level-group mat-expansion-panel-header .mat-expansion-panel-header-title h2.level-header {
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+  font-size: 1.5em;
+}
+
+.level-group mat-expansion-panel-header .mat-expansion-panel-header-description {
+  justify-content: flex-end;
+  color: var(--text-secondary);
+  font-size: 0.9em;
+}
+
+.level-group .mat-expansion-panel-content {
+  padding: 0;
+}
+
+.level-group .mat-expansion-panel-body {
+  padding: 24px;
 }
 
 /* Card positioning styles */

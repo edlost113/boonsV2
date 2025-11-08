@@ -7,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 
@@ -22,7 +23,7 @@ type Boon = {
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CommonModule, MatCardModule, MatToolbarModule, MatButtonModule, MatInputModule, MatFormFieldModule, MatIconModule, FormsModule],
+  imports: [RouterOutlet, CommonModule, MatCardModule, MatToolbarModule, MatButtonModule, MatInputModule, MatFormFieldModule, MatIconModule, MatExpansionModule, FormsModule],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
@@ -32,6 +33,7 @@ export class App implements OnInit {
   boons = signal<Boon[]>([]);
   searchTerm = signal<string>('');
   pinnedBoons = signal<number[]>(this.loadPinnedFromStorage());
+  expandedPanels = signal<Set<number>>(this.loadExpandedFromStorage());
   
   // Computed signal to filter boons based on search term
   filteredBoons = computed(() => {
@@ -154,6 +156,23 @@ export class App implements OnInit {
     this.savePinnedToStorage(emptyArray);
   }
 
+  isPanelExpanded(level: number): boolean {
+    return this.expandedPanels().has(level);
+  }
+
+  onPanelToggle(level: number, isExpanded: boolean) {
+    const currentExpanded = new Set(this.expandedPanels());
+    
+    if (isExpanded) {
+      currentExpanded.add(level);
+    } else {
+      currentExpanded.delete(level);
+    }
+    
+    this.expandedPanels.set(currentExpanded);
+    this.saveExpandedToStorage(currentExpanded);
+  }
+
   private loadPinnedFromStorage(): number[] {
     try {
       const stored = localStorage.getItem('angular-boons-pinned');
@@ -171,6 +190,27 @@ export class App implements OnInit {
       localStorage.setItem('angular-boons-pinned', JSON.stringify(pinnedArray));
     } catch (error) {
       console.error('Error saving pinned boons to localStorage:', error);
+    }
+  }
+
+  private loadExpandedFromStorage(): Set<number> {
+    try {
+      const stored = localStorage.getItem('angular-boons-expanded');
+      if (stored) {
+        const array = JSON.parse(stored) as number[];
+        return new Set(array);
+      }
+    } catch (error) {
+      console.error('Error loading expanded panels from localStorage:', error);
+    }
+    return new Set();
+  }
+
+  private saveExpandedToStorage(expandedSet: Set<number>) {
+    try {
+      localStorage.setItem('angular-boons-expanded', JSON.stringify(Array.from(expandedSet)));
+    } catch (error) {
+      console.error('Error saving expanded panels to localStorage:', error);
     }
   }
 
