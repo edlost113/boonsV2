@@ -1174,5 +1174,157 @@
     "title": "Enchanter",
     "pre": "Bard lvl 3",
     "lvl": 2
+  },
+  {
+    "id": 148,
+    "name": "Boon of the Cleanser",
+    "desc": "When you pick this Boon choose a creature type otherthan Humanoid. When you use your Turn/Sear UndeadFeatures they also apply to this creature type.Additionally add your level to the number of die rolledfor Sear Undead.",
+    "title": "Cleanser",
+    "pre": "Cleric lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 149,
+    "name": "Boon of the Sanctified Flame",
+    "desc": "When you use Channel Divinity, you may also dealradiant damage equal to 2d10 + your Wisdom modifierto all enemies within 20 feet. Allies in that area gaintemporary hit points equal to the roll.",
+    "title": "Flamebearer",
+    "pre": "Cleric lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 150,
+    "name": "Boon of the Martyr’s Flame",
+    "desc": "When an ally within 30 feet would take damage, youmay use your reaction to take that damage instead. Yougain resistance to the damage you take this way. Onceper long rest, if you are reduced to 0 hit points by thisboon, you instantly regain half your hit point maximum.",
+    "title": "Martyr",
+    "pre": "Cleric lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 151,
+    "name": "Boon of the Bellringer",
+    "desc": "When you use Turn Undead, all fiends and aberrationswithin range must also make the saving throw. Onceper long rest, you can instead use your Channel Divinityto cast banishment on up to three creatures of yourchoice within 30 feet.",
+    "title": "Bellringer",
+    "pre": "Cleric lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 152,
+    "name": "Boon of the Relicbearer",
+    "desc": "As a part of a long rest, you may declare one item onyour person a relic of your god. While holding it, yourspell save DC and spell attack modifier each increase by+2. Once per long rest, you can invoke the relic to castflame strike or mass cure wounds without expending aspell slot.",
+    "title": "Relicbearer",
+    "pre": "Cleric lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 153,
+    "name": "Boon of Greater Innate Sorcery",
+    "desc": "While your Innate Sorcery feature is active, you gainthe following benefits:<br/> <li>The spell save DC of your Sorcerer spells increasesby an additional 1, to a total of 2</li><li>Roll three dice and keep the highest on attack rollsof Sorcerer spells you cast.</li><li>When a hostile creatures cannot benefit from anyability that grants them advantage on the savingthrow against spell you cast.</li>",
+    "title": "Prodigy",
+    "pre": "Sorcerer lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 154,
+    "name": "Boon of the Iron Soul",
+    "desc": "When you spend 3 or more focus points, you gainresistance to all damage until the start of your next turn.",
+    "title": "Iron Soul",
+    "pre": "Monk lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 155,
+    "name": "Boon of the Thousand Strikes",
+    "desc": "When you use your Flurry of Blows feature, you can make an addtionalnumber unarmed strikes equal to your Wisdom modifier(minimum 2).",
+    "title": "Thousand Hands",
+    "pre": "Monk lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 156,
+    "name": "Boon of the Silent Mind",
+    "desc": "You gain immunity to being charmed or frightened. Youmay spend 2 ki point as a reaction to automaticallysucceed on a Wisdom or Intelligence saving throw.",
+    "title": "Silent Mind",
+    "pre": "Monk lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 157,
+    "name": "Boon of the Ascendant Body",
+    "desc": "Your jump distance is tripled, and you take no damagefrom falling any distance. You can spend 3 ki points togain a fly speed equal to your walking speed for 1minute.",
+    "title": "Ascendant",
+    "pre": "Monk lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 158,
+    "name": "Boon of Natures Terror",
+    "desc": "When you wildshape you instead gain 10 times yourlevel in temporary HP.<br/>While Wildshaped you exude an aura out to 30 feetthat has the following benefits:<br /><li>It its consider difficult terrain for hostile creatureswithin.</li><li>Ranged attacks made from outside the auratargeting a creature within are made withdisadvantage.</li><li>Allied creatures get a plus to hit equal to yourwisdom modifier.</li>",
+    "title": "Natures Terror",
+    "pre": "Druid lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 159,
+    "name": "Boon of the Verdant Heart",
+    "desc": "Plants within 30 feet of you bloom and twist at your will. Difficult terrain created by plants or undergrowth isignored by you and your allies. You can cast plantgrowth without expending a spell slot or usingcomponents.",
+    "title": "Verdant Heart",
+    "pre": "Druid lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 160,
+    "name": "Boon of the Thornhide",
+    "desc": "When you Wild Shape, you sprout protective thorns.Any creature that hits you with a melee attack while you’re in Wild Shape takes piercing damage equal toyour proficiency bonus.",
+    "title": "Thornhide",
+    "pre": "Druid lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 161,
+    "name": "Boon of the Living Grove",
+    "desc": "As an action, you may summon a 30-foot-radius grove ofspectral plants and beasts centered on a point you cansee within 60 feet. The grove lasts for 1 minute.<br/><b>Sanctuary of Life</b> When an ally in the grove spendshit dice or regains hit points from a spell, they regain anadditional number of hit points equal to your druid level.<br /><b>Hindering Roots</b> The first attack each enemy makeson a turn while inside the grove is made with disadvantage.<br />You can use this boon once per long rest.",
+    "title": "Grovekeeper",
+    "pre": "Druid lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 162,
+    "name": "Boon of The Master Tactician",
+    "desc": "You gain an additional use of your Action Surge andSecond Wind. When you use either your Action Surgeor Second Wind you may have it apply to one additionalcreature within 30 feet of you.<br /> Additionally when you hit with a weapon attack anduse its mastery property you may apply one of theproperties provided in you Tactical Master ability aswell.",
+    "title": "Master Tactician",
+    "pre": "Fighter lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 163,
+    "name": "Boon of the Battle Rhythm",
+    "desc": "When you score a critical hit or reduce a creature to 0hit points, you may immediately move up to half yourspeed and take another action. This can occur once perturn.",
+    "title": "War Dancer",
+    "pre": "Fighter lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 164,
+    "name": "Boon of the Relentless Guard",
+    "desc": "When wielding a shield, youcannot be pushed, knocked prone, or disarmed. Onceper short rest, when an ally within 10 feet would bereduced to 0 hit points due to damage, you may insteadinterpose your shield, reducing the damage to 0.",
+    "title": "Shieldbearer",
+    "pre": "Fighter lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 165,
+    "name": "Boon of the Tireless Warrior",
+    "desc": "You gain proficiency in all saving throws. Once per longrest, when you would gain a level of exhaustion, youmay ignore it instead.",
+    "title": "Tireless",
+    "pre": "Fighter lvl 3",
+    "lvl": 2
+  },
+  {
+    "id": 166,
+    "name": "Boon of the Battlefield Veteran",
+    "desc": "When you roll initiative, you regain a use of your SecondWind and Actions Surge. In addition, you immune to thefrightened condition.",
+    "title": "Veteran",
+    "pre": "Fighter lvl 3",
+    "lvl": 2
   }
 ]
