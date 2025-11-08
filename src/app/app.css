@@ -1,42 +1,42 @@
-/* Light mode variables (default) */
+/* Light mode variables (default) - Color blind safe palette */
 :root {
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
   --bg-tertiary: #f5f5f5;
-  --bg-success: #e8f5e8;
-  --bg-pinned-card: #fffef7;
+  --bg-success: #e8f4fd; /* Changed to blue-tinted background */
+  --bg-pinned-card: #fff8e1; /* Changed to amber-tinted background */
   
   --text-primary: #000000;
   --text-secondary: #666666;
   --text-muted: #999999;
-  --text-success: #2e7d32;
+  --text-success: #0066cc; /* Changed to blue instead of green */
   
   --border-light: #e0e0e0;
   --border-accent: #e3f2fd;
-  --border-success: #4caf50;
-  --border-warning: #ff9800;
+  --border-success: #0066cc; /* Changed to blue instead of green */
+  --border-warning: #d84315; /* Changed to red-orange for better contrast */
   
   --shadow-card: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Dark mode variables */
+/* Dark mode variables - Color blind safe palette */
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-primary: #121212;
     --bg-secondary: #1e1e1e;
     --bg-tertiary: #2d2d2d;
-    --bg-success: #1b3a1b;
-    --bg-pinned-card: #2d2a1f;
+    --bg-success: #1a2332; /* Changed to blue-tinted background */
+    --bg-pinned-card: #332a1a; /* Changed to amber-tinted background */
     
     --text-primary: #ffffff;
     --text-secondary: #b3b3b3;
     --text-muted: #888888;
-    --text-success: #81c784;
+    --text-success: #4da6ff; /* Changed to light blue instead of green */
     
     --border-light: #404040;
     --border-accent: #263238;
-    --border-success: #66bb6a;
-    --border-warning: #ffb74d;
+    --border-success: #4da6ff; /* Changed to light blue instead of green */
+    --border-warning: #ff7043; /* Changed to red-orange for better contrast */
     
     --shadow-card: 0 2px 8px rgba(0,0,0,0.3);
   }
@@ -106,7 +106,7 @@
 
 .pinned-header h2 {
   margin: 0;
-  color: #1976d2;
+  color: #0066cc; /* Color blind safe blue */
 }
 
 .clear-pins-btn {
@@ -168,8 +168,9 @@
   filter: drop-shadow(0 2px 4px rgba(255, 152, 0, 0.2));
 }
 
-.boon-count {/* Darker orange for better contrast in light mode */
-  color: #e65100;
+.boon-count {
+  background-color: #d84315; /* Color blind safe red-orange for better contrast */
+  color: white;
   padding: 2px 8px;
   border-radius: 12px;
   font-size: 0.8em;
@@ -180,7 +181,7 @@
 .boon-level {
   margin-top: 8px;
   font-size: 0.9em;
-  color: #1976d2;
+  color: #0066cc; /* Color blind safe blue */
   font-weight: 500;
 }
 
@@ -189,7 +190,7 @@
 }
 
 .level-header {
-  color: #1976d2;
+  color: #0066cc; /* Color blind safe blue */
   margin-bottom: 16px;
   padding-bottom: 8px;
   border-bottom: 2px solid #e0e0e0;
@@ -228,6 +229,11 @@
   color: var(--text-secondary);
 }
 
+.boon-title span {
+  color: #0066cc; /* Color blind safe blue for boon title content */
+  font-style: normal; /* Remove italic from the title content itself */
+}
+
 .mat-mdc-card-subtitle {
   color: #d32f2f !important;
   font-weight: 500;
@@ -262,8 +268,12 @@
     color: #b3b3b3 !important;
   }
   
+  .container .mat-mdc-card .mat-mdc-card-content .boon-title span {
+    color: #4da6ff !important; /* Color blind safe light blue for dark mode */
+  }
+  
   .container .mat-mdc-card .mat-mdc-card-content .boon-level {
-    color: #64b5f6 !important;
+    color: #4da6ff !important; /* Color blind safe light blue for dark mode */
   }
   
   .mat-mdc-form-field {
@@ -279,7 +289,7 @@
   }
   
   .mat-mdc-form-field.mat-focused .mat-mdc-floating-label {
-    color: #64b5f6 !important;
+    color: #4da6ff !important; /* Color blind safe light blue for dark mode */
   }
   
   /* Dark mode prerequisite headers */
@@ -297,8 +307,8 @@
   
   /* Dark mode boon count styling */
   .boon-count {
-    background-color: #ff9800 !important; /* Brighter orange for dark mode */
-    color: #000000 !important; /* Black text for better contrast on bright orange */
+    background-color: #ff7043 !important; /* Color blind safe red-orange for dark mode */
+    color: #000000 !important; /* Black text for better contrast */
   }
   
   /* Dark mode expansion panel styling */
@@ -312,7 +322,7 @@
   }
   
   .level-group mat-expansion-panel-header .mat-expansion-panel-header-title h2.level-header {
-    color: #64b5f6 !important;
+    color: #4da6ff !important; /* Color blind safe light blue for dark mode */
   }
 }
 

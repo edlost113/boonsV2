@@ -41,7 +41,7 @@
         <mat-card-content>
           <p [innerHTML]="boon.desc"></p>
           <div *ngIf="boon.title" class="boon-title">
-            <strong>Title:</strong> <span [innerHTML]="boon.title"></span>
+            <b>Title:</b> <span [innerHTML]="boon.title"></span>
           </div>
           <div class="boon-level">
             <strong>Cost:</strong> {{ boon.lvl }} Boon {{ boon.lvl === 1 ? 'Point' : 'Points' }} each
@@ -107,14 +107,5 @@
     </mat-expansion-panel>
   </mat-accordion>
 </div>
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 
 <router-outlet />
