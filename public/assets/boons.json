@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Boon of Combat Prowess",
-    "desc": "When you miss with a melee weapon attack, you can choose to hit instead. You can use this boon threes times afterwards you can't use it again until you finish a short rest.",
+    "desc": "When you miss with a melee weapon attack, you can choose to hit instead. You can use this boon three times afterwards you can't use it again until you finish a short rest.",
     "title": "",
     "pre": "No prerequisite",
     "lvl": 1
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Boon of High Magic",
-    "desc": "You gain one 9th-level spell slot, provided that you already have one. If you do not have a 9th level spell lot you gain a spell slot equal to one + your highest level spell slot. This grows with you until you reach 9th level spell slots.",
+    "desc": "You gain one 9th-level spell slot, provided that you already have one. If you do not have a 9th level spell slot you gain a spell slot equal to one + your highest level spell slot. This grows with you until you reach 9th level spell slots.",
     "title": "",
     "pre": "No prerequisite",
     "lvl": 1
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "name": "Boon of Peerless Aim",
-    "desc": "You can give yourself a +20 bonus to a ranged attack roll you make. You can use this boon threes times afterwards you can't use it again until you finish a short rest.",
+    "desc": "You can give yourself a +20 bonus to a ranged attack roll you make. You can use this boon three times afterwards you can't use it again until you finish a short rest.",
     "title": "",
     "pre": "No prerequisite",
     "lvl": 1
@@ -169,7 +169,7 @@
   {
     "id": 22,
     "name": "Boon of Spell Recall",
-    "desc": "You can cast any spell you know or have prepared without expending a spell slot. Once you do so, you cant use this boon again until you finish a long rest.",
+    "desc": "You can cast any spell you know or have prepared without expending a spell slot. Once you do so, you can't use this boon again until you finish a long rest.",
     "title": "",
     "pre": "No prerequisite",
     "lvl": 1
@@ -361,7 +361,7 @@
   {
     "id": 46,
     "name": "Boon of the Ascendant",
-    "desc": "Your spell casting becomes divinely endowed. Any 4th level domain spell you cast using a 4th level spell slot or below is treated as if it was cast as 4th level. As well when casting a spell requiring concentration you can expend another spell slot to cause the spell to persist without concentration",
+    "desc": "Your spell casting becomes divinely endowed. Any 4th level domain spell you cast using a 4th level spell slot or below is treated as if it was cast as 4th level. As well, when casting a spell requiring concentration you can expend another spell slot to cause the spell to persist without concentration",
     "title": "Ascendant",
     "pre": "Cleric lvl 3",
     "lvl": 2
@@ -537,7 +537,7 @@
   {
     "id": 68,
     "name": "Boon of the Arcane Savant",
-    "desc": "When making an intelligence check/skill roll you can treat a roll of 9 or lower as a 10 You also gain additional 9th level spell slot.",
+    "desc": "When making an intelligence check/skill roll you can treat a roll of 9 or lower as a 10 You also gain an additional 9th level spell slot.",
     "title": "Arcane Savant",
     "pre": "Wizard lvl 3",
     "lvl": 2
@@ -569,7 +569,7 @@
   {
     "id": 72,
     "name": "Boon of Immortality",
-    "desc": "Your soul is a priceless treasure, you dont age (even from magical sources) and if you reach 0 hp you can spend your reaction to spend hit dice as if finishing a short rest.",
+    "desc": "Your soul is a priceless treasure, you don't age (even from magical sources) and if you reach 0 hp you can spend your reaction to spend hit dice as if finishing a short rest.",
     "title": "______ The Immortal",
     "pre": "No prerequisite",
     "lvl": 3
@@ -1234,7 +1234,7 @@
   {
     "id": 155,
     "name": "Boon of the Thousand Strikes",
-    "desc": "When you use your Flurry of Blows feature, you can make an addtionalnumber unarmed strikes equal to your Wisdom modifier(minimum 2).",
+    "desc": "When you use your Flurry of Blows feature, you can make an addtional number of unarmed strikes equal to your Wisdom modifier (minimum 2).",
     "title": "Thousand Hands",
     "pre": "Monk lvl 3",
     "lvl": 2
@@ -1290,7 +1290,7 @@
   {
     "id": 162,
     "name": "Boon of The Master Tactician",
-    "desc": "You gain an additional use of your Action Surge andSecond Wind. When you use either your Action Surgeor Second Wind you may have it apply to one additionalcreature within 30 feet of you.<br /> Additionally when you hit with a weapon attack anduse its mastery property you may apply one of theproperties provided in you Tactical Master ability aswell.",
+    "desc": "You gain an additional use of your Action Surge and Second Wind. When you use either your Action Surge or Second Wind you may have it apply to one additional creature within 30 feet of you.<br /> Additionally when you hit with a weapon attack and use its mastery property you may apply one of the properties provided in you Tactical Master ability as well.",
     "title": "Master Tactician",
     "pre": "Fighter lvl 3",
     "lvl": 2
