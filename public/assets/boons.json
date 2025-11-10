@@ -369,7 +369,7 @@
   {
     "id": 47,
     "name": "Boon of the Emergent Primordial",
-    "desc": "You start to merge further into your connection to a specific elemental plane. You gain the following traits depending on which elemental plane you choose:\n**Air Elemental** - Fly speed of 90 ft and Air Form trait\n**Earth Elemental** - Burrow speed of 30 ft and Earth Glide and Siege Monster traits\n**Fire Elemental** - Fire form and Illumination traits\n**Water Elemental** - Swim speed of 90 ft and Water Form trait\nYou also gain resistance to your choice of element and add 1d6 of that element to any physical attacks you make.\nYou gain these traits regardless of what form you are Wild Shaped into.",
+    "desc": "You start to merge further into your connection to a specific elemental plane. You gain the following traits depending on which elemental plane you choose:<br /><b>Air Elemental</b> - Fly speed of 90 ft and Air Form trait<br /><b>Earth Elemental</b> - Burrow speed of 30 ft and Earth Glide and Siege Monster traits<br /><b>Fire Elemental</b> - Fire form and Illumination traits<br /><b>Water Elemental</b> - Swim speed of 90 ft and Water Form trait<br />You also gain resistance to your choice of element and add 1d6 of that element to any physical attacks you make.<br />You gain these traits regardless of what form you are Wild Shaped into.",
     "title": "Emergent Primordial",
     "pre": "Druid lvl 3",
     "lvl": 2
@@ -385,7 +385,7 @@
   {
     "id": 49,
     "name": "Boon of the Focused Shifter",
-    "desc": "You gain the ability to turn into 1 type of creatures besides just beasts\n Choose between:\n**Abberations**\n**Giants**\n**Monstrosities**\n**Oozes**\n**Plants**\n**Undead**",
+    "desc": "You gain the ability to turn into 1 type of creatures besides just beasts<br /> Choose between:<br /><b>Abberations</b><br /><b>Giants</b><br /><b>Monstrosities</b><br /><b>Oozes</b><br /><b>Plants</b><br /><b>Undead</b>",
     "title": "",
     "pre": "Druid lvl 3",
     "lvl": 2
@@ -433,7 +433,7 @@
   {
     "id": 55,
     "name": "Boon of the Crusader",
-    "desc": "You gain the ability to sanctify an action once per round\n**Sanctified Attack Action** - When taking the attack action you attack 3 times\n**Sanctified Channel Divinity** - When you use your Channel Divinity feature you also regain two 5th level spell slots\n**Sanctified Lay On Hands** - You restore x2 as many hit points, the ability has a range of 120 ft and this effect cannot be reduced or prevented by any effect",
+    "desc": "You gain the ability to sanctify an action once per round<br /><b>Sanctified Attack Action</b> - When taking the attack action you attack 3 times<br /><b>Sanctified Channel Divinity</b> - When you use your Channel Divinity feature you also regain two 5th level spell slots<br /><b>Sanctified Lay On Hands</b> - You restore x2 as many hit points, the ability has a range of 120 ft and this effect cannot be reduced or prevented by any effect",
     "title": "Crusader",
     "pre": "Paladin lvl 3",
     "lvl": 2
@@ -497,7 +497,7 @@
   {
     "id": 63,
     "name": "Boon of the Elemental Lord",
-    "desc": "You further infuse yourself to a specific elemental power\n\n**Title Gained: Stormlord** When you cast a spell that deals lightning or thunder damage you cast it as if it was 4 levels higher\n**Title Gained: Stonelord** When you cast a spell that deals bludgeoning damage you cast it as if it was 4 levels higher\n**Title Gained: Firelord** When you cast a spell that deals fire damage you cast it as if it was 4 levels higher\n**Title Gained: Oceanlord** When you cast a spell that deals cold damage you cast it as if it was 4 levels higher\n**Title Gained: Salvelord** When you cast a spell that heals a creature you cast it as if it was 4 levels higher",
+    "desc": "You further infuse yourself to a specific elemental power<br /><br /><b>Title Gained: Stormlord</b> When you cast a spell that deals lightning or thunder damage you cast it as if it was 4 levels higher<br /><b>Title Gained: Stonelord</b> When you cast a spell that deals bludgeoning damage you cast it as if it was 4 levels higher<br /><b>Title Gained: Firelord</b> When you cast a spell that deals fire damage you cast it as if it was 4 levels higher<br /><b>Title Gained: Oceanlord</b> When you cast a spell that deals cold damage you cast it as if it was 4 levels higher<br /><b>Title Gained: Salvelord</b> When you cast a spell that heals a creature you cast it as if it was 4 levels higher",
     "title": "____lord",
     "pre": "Sorcerer lvl 3",
     "lvl": 2
@@ -786,7 +786,7 @@
   {
     "id": 99,
     "name": "Boon of the Demigod",
-    "desc": "You begin to receive worship from those followers that revere you as the paragon saint of your deity. You become immortal, no longer aging, or need to sleep, eat or drink. If slain your body and items are reduced to divine essense and reform over a period of 7 days on a plane associated with your divine nature at a location of your choice. Any 5th level domain spell you cast using a 5th level spell slot or below is treated as if it was cast as 5th level. In addition when you fail a saving throw you can use your reaction and a use of Channel Divinity to succeed instead.\nIn a 10 minute ritual you can reach out into the cosmos with your new divine powers. You take temporarily control over the sun, stars and planets and move them along their path in the sky. Your divine powers means this movement does not cause any direct damage, but can alter the weather or time of day. Once used this cannot be done again for 1 week.",
+    "desc": "You begin to receive worship from those followers that revere you as the paragon saint of your deity. You become immortal, no longer aging, or need to sleep, eat or drink. If slain your body and items are reduced to divine essense and reform over a period of 7 days on a plane associated with your divine nature at a location of your choice. Any 5th level domain spell you cast using a 5th level spell slot or below is treated as if it was cast as 5th level. In addition when you fail a saving throw you can use your reaction and a use of Channel Divinity to succeed instead.<br />In a 10 minute ritual you can reach out into the cosmos with your new divine powers. You take temporarily control over the sun, stars and planets and move them along their path in the sky. Your divine powers means this movement does not cause any direct damage, but can alter the weather or time of day. Once used this cannot be done again for 1 week.",
     "title": "Demigod",
     "pre": "Cleric lvl 9",
     "lvl": 4
@@ -898,7 +898,7 @@
   {
     "id": 113,
     "name": "Boon of the Grand Tradition",
-    "desc": "Choose a school you have selected as an Arcane Tradition.\nChoose a 1st level spell from this school, you can now cast it as a cantrip.\n**Abjuration**: you gain +1 bonus to saving throws against magic effects\n**Conjuration**: when you summon creatures with a conjuration spell, they all have resistances to one damage type of your choice.\n**Divination**: when you finish a long rest, roll 2 d20s and record the results. Anytime before your next long rest, you can substitute any d20 roll for one of the rolls you made. You can only use each roll once.\n**Enchantment**: The number of targets of your enchantment spells is doubled.\n**Evocation**: If you have a damaging spell that requires a dexterity saving throw, traits such as Indomitable or Evasion do not function for the save\n**Illusion**: If you have an illusion spell that allows you to choose one of multiple illusory effects, you can choose two, instead\n**Necromancy**: If you have a spell that raises creatures from the dead, you can raise 3 more creatures from the dead.\n**Transmutation**: While affected by a transmutation spell of 1st level or higher, you have a bonus to your AC equal to your spellcasting ability modifier.",
+    "desc": "Choose a school you have selected as an Arcane Tradition.<br />Choose a 1st level spell from this school, you can now cast it as a cantrip.<br /><b>Abjuration</b>: you gain +1 bonus to saving throws against magic effects<br /><b>Conjuration</b>: when you summon creatures with a conjuration spell, they all have resistances to one damage type of your choice.<br /><b>Divination</b>: when you finish a long rest, roll 2 d20s and record the results. Anytime before your next long rest, you can substitute any d20 roll for one of the rolls you made. You can only use each roll once.<br /><b>Enchantment</b>: The number of targets of your enchantment spells is doubled.<br /><b>Evocation</b>: If you have a damaging spell that requires a dexterity saving throw, traits such as Indomitable or Evasion do not function for the save<br /><b>Illusion</b>: If you have an illusion spell that allows you to choose one of multiple illusory effects, you can choose two, instead<br /><b>Necromancy</b>: If you have a spell that raises creatures from the dead, you can raise 3 more creatures from the dead.<br /><b>Transmutation</b>: While affected by a transmutation spell of 1st level or higher, you have a bonus to your AC equal to your spellcasting ability modifier.",
     "title": "Master of the _____ School",
     "pre": "Wizard lvl 9",
     "lvl": 4
@@ -1018,7 +1018,7 @@
   {
     "id": 128,
     "name": "Boon of Phoenix",
-    "desc": "Your inner spirit transforms into the fearsome fire of a phoenix. You can radiate heat and light from your body enough to emit bright light in a 15 foot radius and dim light in an additional 15 foot radius. Your eyes become bright gold and fiery red. You can heat an object you are touching to ignition if it is a material that can be ignited.\nYou gain the following benefits:\nYou absorb fire and radiant damage, being healed for the amount of damage dealt.\nYou are immune to poison damage, along with the charmed, frightened and poisoned conditions.\nYou sprout magnificent gold and fiery red wings.\nThese wings give you a flying speed of 120 feet.\nYou can use a bonus action to make the wings either disappear or appear.\nYou can also make the light surrounding you appear and disappear at will.\nYou are immune to the wet, cold and heat from environmental exposure, can survive incredibly high altitudes, and cannot gain more than four levels of exhaustion.\nIf you should die, your body bursts into flames and becomes ashes.\nIf your ashes are kept together for 1d10 days, you are reborn as if a True Resurrection spell was used.",
+    "desc": "Your inner spirit transforms into the fearsome fire of a phoenix. You can radiate heat and light from your body enough to emit bright light in a 15 foot radius and dim light in an additional 15 foot radius. Your eyes become bright gold and fiery red. You can heat an object you are touching to ignition if it is a material that can be ignited.<br />You gain the following benefits:<br />You absorb fire and radiant damage, being healed for the amount of damage dealt.<br />You are immune to poison damage, along with the charmed, frightened and poisoned conditions.<br />You sprout magnificent gold and fiery red wings.<br />These wings give you a flying speed of 120 feet.<br />You can use a bonus action to make the wings either disappear or appear.<br />You can also make the light surrounding you appear and disappear at will.<br />You are immune to the wet, cold and heat from environmental exposure, can survive incredibly high altitudes, and cannot gain more than four levels of exhaustion.<br />If you should die, your body bursts into flames and becomes ashes.<br />If your ashes are kept together for 1d10 days, you are reborn as if a True Resurrection spell was used.",
     "title": "The Reborn",
     "pre": "Must have found a phoenix egg and merged with it",
     "lvl": 5
@@ -1026,7 +1026,7 @@
   {
     "id": 129,
     "name": "Boon of Celestial",
-    "desc": "Your soul has become so pure your form has manifested into the form of a celestial.\nYou gain the following benefits: \nYou are resistance to radiant, necrotic and poison damage.\nYou sprout angelic wings that radiate with glory and power. These wings give you a flying speed of 120 feet.\nYour weapon attacks deal an extra 3d8 radiant damage\nHealing Touch (3/Day). As an action you touch another creature. The target magically regains 6d8 + 3 hit points and is freed from any curse, disease, poison, blindness, or deafness",
+    "desc": "Your soul has become so pure your form has manifested into the form of a celestial.<br />You gain the following benefits: <br />You are resistance to radiant, necrotic and poison damage.<br />You sprout angelic wings that radiate with glory and power. These wings give you a flying speed of 120 feet.<br />Your weapon attacks deal an extra 3d8 radiant damage<br />Healing Touch (3/Day). As an action you touch another creature. The target magically regains 6d8 + 3 hit points and is freed from any curse, disease, poison, blindness, or deafness",
     "title": "The Celestial",
     "pre": "Good alignment",
     "lvl": 5
@@ -1034,7 +1034,7 @@
   {
     "id": 130,
     "name": "Boon of Fiend",
-    "desc": "Your soul has become so pure your form has manifested into the form of a fiend.\nYou gain the following benefits:\nYou are resistance to fire and poison damage.\nYou sprout demonic wings that radiate with fear and power. These wings give you a flying speed of 120 feet.\nYour weapon attacks deal an extra 3d8 radiant damage\nHealing Touch (3/Day). As an action you touch another creature. The target magically regains 6d8 + 3 hit points and is freed from any curse, disease, poison, blindness, or deafness",
+    "desc": "Your soul has become so pure your form has manifested into the form of a fiend.<br />You gain the following benefits:<br />You are resistance to fire and poison damage.<br />You sprout demonic wings that radiate with fear and power. These wings give you a flying speed of 120 feet.<br />Your weapon attacks deal an extra 3d8 radiant damage<br />Healing Touch (3/Day). As an action you touch another creature. The target magically regains 6d8 + 3 hit points and is freed from any curse, disease, poison, blindness, or deafness",
     "title": "The Enemy",
     "pre": "Evil alignment",
     "lvl": 5
@@ -1266,7 +1266,7 @@
   {
     "id": 159,
     "name": "Boon of the Verdant Heart",
-    "desc": "Plants within 30 feet of you bloom and twist at your will. Difficult terrain created by plants or undergrowth isignored by you and your allies. You can cast plantgrowth without expending a spell slot or usingcomponents.",
+    "desc": "Plants within 30 feet of you bloom and twist at your will. Difficult terrain created by plants or undergrowth is ignored by you and your allies. You can cast plantgrowth without expending a spell slot or usingcomponents.",
     "title": "Verdant Heart",
     "pre": "Druid lvl 3",
     "lvl": 2
