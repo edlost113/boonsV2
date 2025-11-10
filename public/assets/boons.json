@@ -1258,7 +1258,7 @@
   {
     "id": 158,
     "name": "Boon of Natures Terror",
-    "desc": "When you wildshape you instead gain 10 times yourlevel in temporary HP.<br/>While Wildshaped you exude an aura out to 30 feetthat has the following benefits:<br /><li>It its consider difficult terrain for hostile creatureswithin.</li><li>Ranged attacks made from outside the auratargeting a creature within are made withdisadvantage.</li><li>Allied creatures get a plus to hit equal to yourwisdom modifier.</li>",
+    "desc": "When you wildshape you instead gain 10 times yourlevel in temporary HP.<br/>While Wildshaped you exude an aura out to 30 feet that has the following benefits:<br /><li>It its consider difficult terrain for hostile creatureswithin.</li><li>Ranged attacks made from outside the auratargeting a creature within are made withdisadvantage.</li><li>Allied creatures get a plus to hit equal to yourwisdom modifier.</li>",
     "title": "Natures Terror",
     "pre": "Druid lvl 3",
     "lvl": 2
